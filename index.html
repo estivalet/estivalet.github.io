@@ -1,700 +1,45 @@
-<link href="css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-
-<style>
-
-
-
-
-/****** Searchable container */
-
-.title{
- margin-left:20px
-}
-
-.fa-user{
- font-size:80px   
-}
-
-.searchable-container{
-    margin-top:40px;
-}
-
-.glyphicon-lg{
-    font-size:4em
-}
-.info-block{
-    border-right:5px solid #E6E6E6;margin-bottom:25px
-}
-.info-block .square-box {
-    width:120px;
-    min-height:120px;
-    margin-right:22px;
-    text-align:center!important;
-    background-color:#676767;
-    padding:20px 0
-}
-.info-block:hover .info-block.block-info {
-    border-color:#20819e
-}
-
-.info-block.block-info .square-box {
-    background-color:#5bc0de;
-    color:#FFF
-}
-
-
-
-
-
-
-/*   */
-
-body{
-margin-top:20px;
-background: rgb(105,87,87);
-background: radial-gradient(circle, rgba(105,87,87,1) 0%, rgba(0,0,0,1) 100%);
-}
-
-.btn-compose-email {
-    padding: 10px 0px;
-    margin-bottom: 20px;
-}
-
-.btn-danger {
-    background-color: #E9573F;
-    border-color: #E9573F;
-    color: white;
-}
-
-.panel-teal .panel-heading {
-    background-color: #37BC9B;
-    border: 1px solid #36b898;
-    color: white;
-}
-
-.panel .panel-heading {
-    padding: 5px;
-    border-top-right-radius: 3px;
-    border-top-left-radius: 3px;
-    border-bottom: 1px solid #DDD;
-    -moz-border-radius: 0px;
-    -webkit-border-radius: 0px;
-    border-radius: 0px;
-}
-
-.panel .panel-heading .panel-title {
-    padding: 10px;
-    font-size: 17px;
-}
-
-form .form-group {
-    position: relative;
-    margin-left: 0px !important;
-    margin-right: 0px !important;
-}
-
-.inner-all {
-    padding: 10px;
-}
-
-/* ========================================================================
- * MAIL
- * ======================================================================== */
-.nav-email > li:first-child + li:active {
-  margin-top: 0px;
-}
-.nav-email > li + li {
-  margin-top: 1px;
-}
-.nav-email li {
-  background-color: white;
-}
-.nav-email li.active {
-  background-color: transparent;
-}
-.nav-email li.active .label {
-  background-color: white;
-  color: black;
-}
-.nav-email li a {
-  color: black;
-  -moz-border-radius: 0px;
-  -webkit-border-radius: 0px;
-  border-radius: 0px;
-}
-.nav-email li a:hover {
-  background-color: #EEEEEE;
-}
-.nav-email li a i {
-  margin-right: 5px;
-}
-.nav-email li a .label {
-  margin-top: -1px;
-}
-
-.table-email tr:first-child td {
-  border-top: none;
-}
-.table-email tr td {
-  vertical-align: top !important;
-}
-.table-email tr td:first-child, .table-email tr td:nth-child(2) {
-  text-align: center;
-  width: 35px;
-}
-.table-email tr.unread, .table-email tr.selected {
-  background-color: #EEEEEE;
-}
-.table-email .media {
-  margin: 0px;
-  padding: 0px;
-  position: relative;
-}
-.table-email .media h4 {
-  margin: 0px;
-  font-size: 14px;
-  line-height: normal;
-}
-.table-email .media-object {
-  width: 35px;
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
-  border-radius: 2px;
-}
-.table-email .media-meta, .table-email .media-attach {
-  font-size: 11px;
-  color: #999;
-  position: absolute;
-  right: 10px;
-}
-.table-email .media-meta {
-  top: 0px;
-}
-.table-email .media-attach {
-  bottom: 0px;
-}
-.table-email .media-attach i {
-  margin-right: 10px;
-}
-.table-email .media-attach i:last-child {
-  margin-right: 0px;
-}
-.table-email .email-summary {
-  margin: 0px 110px 0px 0px;
-}
-.table-email .email-summary strong {
-  color: #333;
-}
-.table-email .email-summary span {
-  line-height: 1;
-}
-.table-email .email-summary span.label {
-  padding: 1px 5px 2px;
-}
-.table-email .ckbox {
-  line-height: 0px;
-  margin-left: 8px;
-}
-.table-email .star {
-  margin-left: 6px;
-}
-.table-email .star.star-checked i {
-  color: goldenrod;
-}
-
-.nav-email-subtitle {
-  font-size: 15px;
-  text-transform: uppercase;
-  color: #333;
-  margin-bottom: 15px;
-  margin-top: 30px;
-}
-
-.compose-mail {
-  position: relative;
-  padding: 15px;
-}
-.compose-mail textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #DDD;
-}
-
-.view-mail {
-  padding: 10px;
-  font-weight: 300;
-}
-
-.attachment-mail {
-  padding: 10px;
-  width: 100%;
-  display: inline-block;
-  margin: 20px 0px;
-  border-top: 1px solid #EFF2F7;
-}
-.attachment-mail p {
-  margin-bottom: 0px;
-}
-.attachment-mail a {
-  color: #32323A;
-}
-.attachment-mail ul {
-  padding: 0px;
-}
-.attachment-mail ul li {
-  float: left;
-  width: 200px;
-  margin-right: 15px;
-  margin-top: 15px;
-  list-style: none;
-}
-.attachment-mail ul li a.atch-thumb img {
-  width: 200px;
-  margin-bottom: 10px;
-}
-.attachment-mail ul li a.name span {
-  float: right;
-  color: #767676;
-}
-
-@media (max-width: 640px) {
-  .compose-mail-wrapper .compose-mail {
-    padding: 0px;
-  }
-}
-@media (max-width: 360px) {
-  .mail-wrapper .panel-sub-heading {
-    text-align: center;
-  }
-  .mail-wrapper .panel-sub-heading .pull-left, .mail-wrapper .panel-sub-heading .pull-right {
-    float: none !important;
-    display: block;
-  }
-  .mail-wrapper .panel-sub-heading .pull-right {
-    margin-top: 10px;
-  }
-  .mail-wrapper .panel-sub-heading img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-  }
-  .mail-wrapper .panel-footer {
-    text-align: center;
-  }
-  .mail-wrapper .panel-footer .pull-right {
-    float: none !important;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .mail-wrapper .attachment-mail ul {
-    padding: 0px;
-  }
-  .mail-wrapper .attachment-mail ul li {
-    width: 100%;
-  }
-  .mail-wrapper .attachment-mail ul li a.atch-thumb img {
-    width: 100% !important;
-  }
-  .mail-wrapper .attachment-mail ul li .links {
-    margin-bottom: 20px;
-  }
-
-  .compose-mail-wrapper .search-mail input {
-    width: 130px;
-  }
-  .compose-mail-wrapper .panel-sub-heading {
-    padding: 10px 7px;
-  }
-}
-
-
-
-
-
-
-
-
-
-
-/*font Awesome http://fontawesome.io*/
-@import url(css/all.min.css);
-/*Comment List styles*/
-.comment-list .row {
-  margin-bottom: 0px;
-}
-.comment-list .panel .panel-heading {
-  padding: 4px 15px;
-  position: absolute;
-  border:none;
-  /*Panel-heading border radius*/
-  border-top-right-radius:0px;
-  top: 1px;
-}
-.comment-list .panel .panel-heading.right {
-  border-right-width: 0px;
-  /*Panel-heading border radius*/
-  border-top-left-radius:0px;
-  right: 16px;
-}
-.comment-list .panel .panel-heading .panel-body {
-  padding-top: 6px;
-}
-.comment-list figcaption {
-  /*For wrapping text in thumbnail*/
-  word-wrap: break-word;
-}
-/* Portrait tablets and medium desktops */
-@media (min-width: 768px) {
-  .comment-list .arrow:after, .comment-list .arrow:before {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-color: transparent;
-  }
-  .comment-list .panel.arrow.left:after, .comment-list .panel.arrow.left:before {
-    border-left: 0;
-  }
-  /*****Left Arrow*****/
-  /*Outline effect style*/
-  .comment-list .panel.arrow.left:before {
-    left: 0px;
-    top: 30px;
-    /*Use boarder color of panel*/
-    border-right-color: inherit;
-    border-width: 16px;
-  }
-  /*Background color effect*/
-  .comment-list .panel.arrow.left:after {
-    left: 1px;
-    top: 31px;
-    /*Change for different outline color*/
-    border-right-color: #FFFFFF;
-    border-width: 15px;
-  }
-  /*****Right Arrow*****/
-  /*Outline effect style*/
-  .comment-list .panel.arrow.right:before {
-    right: -16px;
-    top: 30px;
-    /*Use boarder color of panel*/
-    border-left-color: inherit;
-    border-width: 16px;
-  }
-  /*Background color effect*/
-  .comment-list .panel.arrow.right:after {
-    right: -14px;
-    top: 31px;
-    /*Change for different outline color*/
-    border-left-color: #FFFFFF;
-    border-width: 15px;
-  }
-}
-.comment-list .comment-post {
-  margin-top: 6px;
-}
-
-
-
-
-
-
-
-/**** resumee ****/
-                    
-    /* uses font awesome for social icons */
-@import url(css/all.min.css);
-
-.page-header{
-  text-align: center;    
-}
-
-/*social buttons*/
-.btn-social{
-  color: white;
-  opacity:0.9;
-}
-.btn-social:hover {
-  color: white;
-    opacity:1;
-}
-.btn-facebook {
-background-color: #3b5998;
-opacity:0.9;
-}
-.btn-wordpress {
-background-color: #1b59ff;
-opacity:0.9;
-}
-
-.btn-twitter {
-background-color: #00aced;
-opacity:0.9;
-}
-.btn-linkedin {
-background-color:#0e76a8;
-opacity:0.9;
-}
-.btn-github{
-  background-color:#000000;
-  opacity:0.9;
-}
-.btn-google {
-  background-color: #c32f10;
-  opacity: 0.9;
-}
-.btn-stackoverflow{
-  background-color: #D38B28;
-  opacity: 0.9;
-}
-
-/* resume stuff */
-
-.bs-callout {
-    -moz-border-bottom-colors: none;
-    -moz-border-left-colors: none;
-    -moz-border-right-colors: none;
-    -moz-border-top-colors: none;
-    border-color: #eee;
-    border-image: none;
-    border-radius: 3px;
-    border-style: solid;
-    border-width: 1px 1px 1px 5px;
-    margin-bottom: 5px;
-    padding: 20px;
-}
-.bs-callout:last-child {
-    margin-bottom: 0px;
-}
-.bs-callout h4 {
-    margin-bottom: 10px;
-    margin-top: 0;
-}
-
-.bs-callout-danger {
-    border-left-color: #d9534f;
-}
-
-.bs-callout-danger h4{
-    color: #d9534f;
-}
-
-.resume .list-group-item:first-child, .resume .list-group-item:last-child{
-  border-radius:0;
-}
-
-/*makes an anchor inactive(not clickable)*/
-.inactive-link {
-   pointer-events: none;
-   cursor: default;
-}
-
-.resume-heading .social-btns{
-  margin-top:15px;
-}
-.resume-heading .social-btns i.fa{
-  margin-left:-5px;
-}
-
-
-
-@media (max-width: 992px) {
-  .resume-heading .social-btn-holder{
-    padding:5px;
-  }
-}
-
-
-/* skill meter in resume. copy pasted from http://bootsnipp.com/snippets/featured/progress-bar-meter */
-
-.progress-bar {
-    text-align: left;
-    white-space: nowrap;
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	cursor: pointer;
-}
-
-.progress-bar > .progress-type {
-	padding-left: 10px;
-}
-
-.progress-meter {
-	min-height: 15px;
-	border-bottom: 2px solid rgb(160, 160, 160);
-  margin-bottom: 15px;
-}
-
-.progress-meter > .meter {
-	position: relative;
-	float: left;
-	min-height: 15px;
-	border-width: 0px;
-	border-style: solid;
-	border-color: rgb(160, 160, 160);
-}
-
-.progress-meter > .meter-left {
-	border-left-width: 2px;
-}
-
-.progress-meter > .meter-right {
-	float: right;
-	border-right-width: 2px;
-}
-
-.progress-meter > .meter-right:last-child {
-	border-left-width: 2px;
-}
-
-.progress-meter > .meter > .meter-text {
-	position: absolute;
-	display: inline-block;
-	bottom: -20px;
-	width: 100%;
-	font-weight: 700;
-	font-size: 0.85em;
-	color: rgb(160, 160, 160);
-	text-align: left;
-}
-
-.progress-meter > .meter.meter-right > .meter-text {
-	text-align: right;
-}
-
-
-    
-                        
-/**** resume ****/
-</style>
-
-<script src="js/jquery-1.11.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<!------ Include the above in your HEAD tag ---------->
-
-
-
-
-<!-- nav bar -->
-<link href="css/all.min.css" rel="stylesheet">
-<div class="container">
-<div class="row">
-    <div class="col-sm-3">
-        <ul class="nav nav-pills nav-stacked nav-email shadow mb-20" style="box-shadow: 5px 5px 5px grey;">
-            <li class="active">
-                <a href="index.html">
-                    <i class="fas fa-user-circle"></i> &nbsp;Profile
-                </a>
-            </li>
-            <li>
-                <a href="teach.html">
-                    <i class="fas fa-chalkboard-teacher"></i> Teaching
-                </a>
-            </li>
-            <li>
-                <a href="portfolio.html">
-                    <i class="fas fa-briefcase"></i> Portfolio
-                </a>
-            </li>
-            <li>
-                <a href="games.html"><i class="fas fa-gamepad"></i> Games</a>
-            </li>
-            <li><a href="about.html"> <i class="fas fa-address-card"></i> About</a></li>
-        </ul><!-- /.nav -->
-
-        <h5 class="nav-email-subtitle" style="color:white">More</h5>
-        <ul class="nav nav-pills nav-stacked nav-email mb-20 rounded shadow" style="box-shadow: 5px 5px 5px grey;">
-            <li>
-                <a href="books.html">
-                    <i class="fas fa-book"></i> Reading Recommendations
-                </a>
-            </li>
-        </ul><!-- /.nav -->
-    </div>
-    <div class="col-sm-9">
-        
-        <!-- resumt -->
-        <div class="panel panel-default" style="box-shadow: 5px 5px 5px grey;">
-               <div class="panel-heading resume-heading">
-                  <div class="row">
-                     <div class="col-lg-12">
-                        <div class="col-xs-12 col-sm-4">
-                           <figure>
-                              <img class="img-circle img-responsive" alt="" src="images/pp.jpg" width="85%">
-                           </figure>
-                           <div class="row">
-                              <div class="col-xs-12 social-btns">
-								 <!--
-                                 <div class="col-xs-3 col-md-1 col-lg-1 ">
-                                    <a href="#" class="btn btn-social btn-block btn-google">
-                                    <i class="fab fa-google" style="margin-left:-6px"></i> </a>
-                                 </div>
-								 
-                                 <div class="col-xs-3 col-md-1 col-lg-1 social-btn-holder">
-                                    <a href="https://www.linkedin.com/in/luizfestivalet/" class="btn btn-social btn-block btn-linkedin">
-                                    <i class="fab fa-linkedin" style="margin-left:-6px"></i> </a>
-                                 </div>
-                                 <div class="col-xs-3 col-md-1 col-lg-1 social-btn-holder">
-                                    <a href="https://github.com/estivalet" class="btn btn-social btn-block btn-github">
-                                    <i class="fab fa-github" style="margin-left:-6px"></i> </a>
-                                 </div>
-                                 <div class="col-xs-3 col-md-1 col-lg-1 social-btn-holder">
-                                    <a href="https://www.facebook.com/luiz.estivalet/" class="btn btn-social btn-block btn-facebook">
-                                    <i class="fab fa-facebook" style="margin-left:-6px"></i> </a>
-                                 </div>
-                                 <div class="col-xs-3 col-md-1 col-lg-1 social-btn-holder">
-                                    <a href="https://twitter.com/EstivaletF" class="btn btn-social btn-block btn-twitter">
-                                    <i class="fab fa-twitter" style="margin-left:-6px"></i> </a>
-                                 </div>
-								 
-                                 <div class="col-xs-3 col-md-1 col-lg-1 social-btn-holder">
-                                    <a href="#" class="btn btn-social btn-block btn-stackoverflow">
-                                    <i class="fab fa-stack-overflow" style="margin-left:-6px"></i> </a>
-                                 </div>
-								 -->
-                              </div>
-                              
-                              
-                           </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-8">
-                           <ul class="list-group">
-                              <li class="list-group-item"><h3><b>Luiz Fernando Estivalet</b></h3></li>
-                              <li class="list-group-item">Senior Software Developer</li>
-                              <li class="list-group-item"><i class="fa fa-envelope"></i> luiz.f.estivalet@gmail.com</li>
-                           </ul>
-                                 <div class="col-xs-3 col-md-1 col-lg-1 social-btn-holder">
-                                    <a href="https://www.linkedin.com/in/luizfestivalet/" target="_blank" title="Professional life" class="btn btn-social btn-block btn-linkedin">
-                                    <i class="fab fa-linkedin" style="margin-left:-6px"></i> </a>
-                                 </div>
-                                 <div class="col-xs-3 col-md-1 col-lg-1 social-btn-holder">
-                                    <a href="https://github.com/estivalet" target="_blank"  title="See my open source code" class="btn btn-social btn-block btn-github">
-                                    <i class="fab fa-github" style="margin-left:-6px"></i> </a>
-                                 </div>
-                                 <div class="col-xs-3 col-md-1 col-lg-1 social-btn-holder">
-                                    <a href="https://lfestivalet.wordpress.com" target="_blank"  title="Read my articles" class="btn btn-social btn-block btn-wordpress">
-                                    <i class="fab fa-wordpress" style="margin-left:-6px"></i> </a>
-                                 </div>
-								 
-                                 <div class="col-xs-3 col-md-1 col-lg-1 social-btn-holder">
-                                    <a href="https://www.facebook.com/luiz.estivalet/" target="_blank" title="Personal life" class="btn btn-social btn-block btn-facebook">
-                                    <i class="fab fa-facebook" style="margin-left:-6px"></i> </a>
-                                 </div>
-                                 <div class="col-xs-3 col-md-1 col-lg-1 social-btn-holder">
-                                    <a href="https://twitter.com/EstivaletF" target="_blank"  title="Follow me!" class="btn btn-social btn-block btn-twitter">
-                                    <i class="fab fa-twitter" style="margin-left:-6px"></i> </a>
-                                 </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="bs-callout bs-callout-danger">
-                  <h4>Summary</h4>
-                  <p>
-					Information Technology professional with over 20 years of experience, working at major industrial 
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Editorial by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><strong>Profile</strong> of Luiz Fernando Estivalet</a>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-snapchat-ghost"><span class="label">Snapchat</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li>
+									</ul>
+								</header>
+
+							<!-- Banner -->
+								<section id="banner">
+									<div class="content">
+										<header>
+											<h1>Hi, I’m Luiz</h1>
+											<p>Senior Software Developer</p>
+										</header>
+Information Technology professional with over 20 years of experience, working at major industrial 
 					companies such as <a href="https://www.dell.com" target="_blank">Dell</a>, <a href="https://www.accenture.com" target="_blank">Accenture</a> and <a href="https://www.serpro.gov.br" target="_blank">Serpro</a>.
 					Out of them, 5 years working on distributed teams across the globe. 
 					Strong technical and analytical problem solving coupled with ability to negotiate, manage systems and programs. 
@@ -702,186 +47,161 @@ opacity:0.9;
 					</p>
 					<p>
 					Nowadays I am working at <a href="https://www.trt4.jus.br" target="_blank">Tribunal Regional do Trabalho da 4ª Região</a> as a Senior Test Lead and Senior Software Developer.
-					</p>
-               </div>
-               <div class="bs-callout bs-callout-danger">
-                  <h4>Research Interests</h4>
-                  <p>
-                     Software Engineering, Game Programming, Test Automation, Machine Learning, Image Processing,
-                     Artificial Neural Networks, Data Science, Evolutionary Algorithms.
-                  </p>
-               </div>
-               <div class="bs-callout bs-callout-danger">
-                  <h4>Prior Experiences</h4>
-                  <ul class="list-group">
-                     <a class="list-group-item inactive-link" href="#">
-                        <h4 class="list-group-item-heading">
-                           Senior System Analyst at Tribunal Regional do Trabalho da 4ª Região (Feb 2014 - )
-                        </h4>
-                        <p class="list-group-item-text">
-							Development of automated tests using Robot Framework. Responsible for Quality Assurance.
-                        </p>
-                     </a>
-                     <a class="list-group-item inactive-link" href="#">
-                        <h4 class="list-group-item-heading">
-                           Senior System Analyst at Serpro (May 2009 - Feb 2014)
-                        </h4>
-                        <p class="list-group-item-text">
-							Development of automated tests using Selenium. Responsible for Quality Assurance.
-                        </p>
-                     </a>
-                     <a class="list-group-item inactive-link" href="#">
-                        <h4 class="list-group-item-heading">Senior Software Developer at Dell Inc. (Feb 2005 - May 2009)</h4>
-                        <p class="list-group-item-text">
-							<p>Development Team Leader in a global Project for Human Resources. The focus of the
-							project was Compensation and Benefits (promotion, employee stock compensation and
-							bonus plan payments) for the entire company (90000 employees approximately).</p>
+					</p>										
+										<ul class="actions">
+											<li><a href="learn-more.html" class="button big">Learn More</a></li>
+										</ul>
+									</div>
+									<span class="image object">
+										<img src="images/pic10.jpg" alt="" />
+									</span>
+								</section>
 
-							<p>Analyzed, developed and maintained current and new systems. Leader and be the
-							technical focal point for development team.</p>
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>What I do</h2>
+									</header>
+									<div class="features">
+										<article>
+											<span class="icon fa-gem"></span>
+											<div class="content">
+												<h3>Portitor ullamcorper</h3>
+												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+											</div>
+										</article>
+										<article>
+											<span class="icon solid fa-paper-plane"></span>
+											<div class="content">
+												<h3>Sapien veroeros</h3>
+												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+											</div>
+										</article>
+										<article>
+											<span class="icon solid fa-rocket"></span>
+											<div class="content">
+												<h3>Quam lorem ipsum</h3>
+												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+											</div>
+										</article>
+										<article>
+											<span class="icon solid fa-signal"></span>
+											<div class="content">
+												<h3>Sed magna finibus</h3>
+												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+											</div>
+										</article>
+									</div>
+								</section>
 
-							<p>Led development teams from 3 to 7 people.</p>
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Portfolio</h2>
+									</header>
+									<div class="posts">
+										<article>
+											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+											<h3>Interdum aenean</h3>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+											<ul class="actions">
+												<li><a href="#" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+											<h3>Nulla amet dolore</h3>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+											<ul class="actions">
+												<li><a href="#" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+											<h3>Tempus ullamcorper</h3>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+											<ul class="actions">
+												<li><a href="#" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
+											<h3>Sed etiam facilis</h3>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+											<ul class="actions">
+												<li><a href="#" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
+											<h3>Feugiat lorem aenean</h3>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+											<ul class="actions">
+												<li><a href="#" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
+											<h3>Amet varius aliquam</h3>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+											<ul class="actions">
+												<li><a href="#" class="button">More</a></li>
+											</ul>
+										</article>
+									</div>
+								</section>
 
-							<p>Worked as Configuration Manager in world wide project, using a common software
-							configuration management tool (SCM).</p>
+						</div>
+					</div>
 
-							<p>JEE Software architecture definitions and modeling.</p>
-						</p>
-                        <p></p>
-                     </a>
-                  </ul>
-               </div>
-               <div class="bs-callout bs-callout-danger">
-                  <h4>Key Expertise</h4>
-                  <ul class="list-group">
-                     <li class="list-group-item"> Communication </li>
-                     <li class="list-group-item"> Problem Solving</li>
-                     <li class="list-group-item"> Leadership</li>
-                     <li class="list-group-item"> Time Management</li>
-                  </ul>
-               </div>
-               <div class="bs-callout bs-callout-danger">
-                  <h4>Language and Platform Skills</h4>
-                  <ul class="list-group">
-                     <a class="list-group-item inactive-link" href="#">
-                        <div class="progress">
-                           <div data-placement="top" style="width: 95%;" 
-                              aria-valuemax="100" aria-valuemin="0" aria-valuenow="95" role="progressbar" class="progress-bar progress-bar-success">
-                              <span class="sr-only">95%</span>
-                              <span class="progress-type">Robot Framework</span>
-                           </div>
-                        </div>
-                        <div class="progress">
-                           <div data-placement="top" style="width: 90%;" 
-                              aria-valuemax="100" aria-valuemin="0" aria-valuenow="95" role="progressbar" class="progress-bar progress-bar-success">
-                              <span class="sr-only">90%</span>
-                              <span class="progress-type">REST API Development</span>
-                           </div>
-                        </div>
-                        <div class="progress">
-                           <div data-placement="top" style="width: 80%;" 
-                              aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" role="progressbar" class="progress-bar progress-bar-success">
-                              <span class="sr-only">80%</span>
-                              <span class="progress-type">Java/ JavaEE / Spring Framework </span>
-                           </div>
-                        </div>
-                        <div class="progress">
-                           <div data-placement="top" style="width: 70%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="1" role="progressbar" class="progress-bar progress-bar-success">
-                              <span class="sr-only">70%</span>
-                              <span class="progress-type">Javascript / NodeJS</span>
-                           </div>
-                        </div>
-                        <div class="progress">
-                           <div data-placement="top" style="width: 60%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="1" role="progressbar" class="progress-bar progress-bar-success">
-                              <span class="sr-only">60%</span>
-                              <span class="progress-type">Angular</span>
-                           </div>
-                        </div>
-                        <div class="progress">
-                           <div data-placement="top" style="width: 60%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="1" role="progressbar" class="progress-bar progress-bar-warning">
-                              <span class="sr-only">65%</span>
-                              <span class="progress-type">Python</span>
-                           </div>
-                        </div>
-                        <div class="progress">
-                           <div data-placement="top" style="width: 50%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="60" role="progressbar" class="progress-bar progress-bar-warning">
-                              <span class="sr-only">60%</span>
-                              <span class="progress-type">C</span>
-                           </div>
-                        </div>
-                        <div class="progress">
-                           <div data-placement="top" style="width: 45%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="50" role="progressbar" class="progress-bar progress-bar-warning">
-                              <span class="sr-only">50%</span>
-                              <span class="progress-type">C++</span>
-                           </div>
-                        </div>
-                        <div class="progress">
-                           <div data-placement="top" style="width: 10%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="50" role="progressbar" class="progress-bar progress-bar-danger">
-                              <span class="sr-only">10%</span>
-                              <span class="progress-type">Go</span>
-                           </div>
-                        </div>
-                        <div class="progress-meter">
-                           <div style="width: 25%;" class="meter meter-left"><span class="meter-text">I suck</span></div>
-                           <div style="width: 25%;" class="meter meter-left"><span class="meter-text">I know little</span></div>
-                           <div style="width: 30%;" class="meter meter-right"><span class="meter-text">I'm a guru</span></div>
-                           <div style="width: 20%;" class="meter meter-right"><span class="meter-text">I''m good</span></div>
-                        </div>
-                     </a>
-                  </ul>
-               </div>
-               <div class="bs-callout bs-callout-danger">
-                  <h4>Licenses &amp; Certifications</h4>
-                  <table class="table table-striped table-responsive ">
-                     <thead>
-                        <tr>
-                           <th>Description</th>
-                           <th>School</th>
-                           <th>Year</th>
-                        </tr>
-                     </thead>
-                     <tbody>
-                        <tr>
-                           <td><a href="https://cursos.alura.com.br/user/luiz-estivalet/career/angular/certificate" target="_blank">Angular Developer</a></td>
-                           <td><a href="https://www.linkedin.com/school/aluracursos/" target="_blank">Alura Cursos Online</a></td>
-                           <td>May 2019</td>
-                        </tr>
-                        <tr>
-                           <td><a href="https://cursos.alura.com.br/user/luiz-estivalet/fullCertificate/133QRXU8EFqudLuMJB27VJkd5duNnRqJ15" target="_blank">Online Courses</td>
-                           <td><a href="https://www.linkedin.com/school/aluracursos/" target="_blank">Alura Cursos Online</a></td>
-                           <td></td>
-                        </tr>
-                     </tbody>
-                  </table>
-               </div>
-               <div class="bs-callout bs-callout-danger">
-                  <h4>Education</h4>
-                  <table class="table table-striped table-responsive ">
-                     <thead>
-                        <tr>
-                           <th>Degree</th>
-                           <th>School</th>
-                           <th>Graduation Year</th>
-                        </tr>
-                     </thead>
-                     <tbody>
-                        <tr>
-                           <td><a href="https://lume.ufrgs.br/handle/10183/1629" target="_blank">Masters in Computer Science and Engineering</a></td>
-                           <td>Federal University of Rio Grande do Sul</td>
-                           <td>2000</td>
-                        </tr>
-                        <tr>
-                           <td>BSc. in Computer Science and Engineering</td>
-                           <td>Federal University of Rio Grande do Sul</td>
-                           <td>1997</td>
-                        </tr>
-                     </tbody>
-                  </table>
-               </div>
-            </div>
-         </div>
-        <!-- resume -->
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
 
-    </div>
-</div>
-</div>
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="index.html">Profile</a></li>
+										<li><a href="generic.html">Teaching</a></li>
+										<li><a href="elements.html">Portfolio</a></li>
+										<li><a href="#">Games</a></li>
+										<li><a href="#">Reading</a></li>
+									</ul>
+								</nav>
+
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Get in touch</h2>
+									</header>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
+										<li class="icon solid fa-phone">(000) 000-0000</li>
+										<li class="icon solid fa-home">1234 Somewhere Road #8254<br />
+										Nashville, TN 00000-0000</li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
