@@ -1,0 +1,38 @@
+[
+  {
+    "id": "space-defender",
+    "title": "Space Defender",
+    "description": "A classic 2D space shooter with power-ups, boss battles, and a global high-score system. Defend the galaxy from endless waves of alien invaders.",
+    "icon": "fas fa-space-shuttle",
+    "technologies": ["Unity", "C#", "WebGL"],
+    "playUrl": "#",
+    "githubUrl": "#"
+  },
+  {
+    "id": "puzzle-quest",
+    "title": "Puzzle Quest 3D",
+    "description": "A mind-bending 3D puzzle platformer where you manipulate gravity to navigate complex mazes and overcome obstacles.",
+    "icon": "fas fa-cube",
+    "technologies": ["Unreal Engine", "C++", "Blender"],
+    "playUrl": "#",
+    "githubUrl": "#"
+  },
+  {
+    "id": "retro-racer",
+    "title": "Retro Racer",
+    "description": "An arcade-style racing game with a synthwave aesthetic, featuring customizable vehicles, multiple tracks, and local multiplayer.",
+    "icon": "fas fa-car-side",
+    "technologies": ["Godot", "GDScript", "Aseprite"],
+    "playUrl": "#",
+    "githubUrl": "#"
+  },
+  {
+    "id": "dungeon-crawler",
+    "title": "Abyss Crawler",
+    "description": "A roguelike dungeon crawler with procedurally generated levels, turn-based combat, and deep inventory management.",
+    "icon": "fas fa-dragon",
+    "technologies": ["Phaser.js", "JavaScript", "HTML5 Canvas"],
+    "playUrl": "#",
+    "githubUrl": "#"
+  }
+]
