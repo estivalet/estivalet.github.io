@@ -1,0 +1,79 @@
+[
+  {
+    "id": "ms-computer-science",
+    "type": "degree",
+    "icon": "fas fa-graduation-cap",
+    "title": "M.S. Computer Science",
+    "institution": "Federal University of Rio Grande do Sul",
+    "year": "1998 - 2000",
+    "description": "Focus on Computer Graphics.",
+    "linkUrl": "",
+    "linkLabel": ""
+  },
+  {
+    "id": "bs-computer-science",
+    "type": "degree",
+    "icon": "fas fa-graduation-cap",
+    "title": "B.S. Computer Science",
+    "institution": "Federal University of Rio Grande do Sul",
+    "year": "1993 - 1997",
+    "description": "Focus on Software Engineering, Database Systems, and Web Development.",
+    "linkUrl": "https://lume.ufrgs.br/bitstream/handle/10183/1629/000353944.pdf?sequence=1",
+    "linkLabel": "Master's Thesis"
+  },
+  {
+    "id": "angular-19",
+    "type": "certification",
+    "icon": "fas fa-certificate",
+    "title": "Angular 19 Beginner to Expert: Interview Q&A, E-Commerce '26",
+    "institution": "Udemy",
+    "year": "2026",
+    "description": "Master Angular 19 with component architecture, RxJS, routing, forms, interview questions & a full e-commerce project.",
+    "linkUrl": "https://www.udemy.com/certificate/UC-e049d590-9f12-4cf8-b96b-e01b30b1f9ef/",
+    "linkLabel": "Certificate"
+  },
+  {
+    "id": "rest-apis-flask",
+    "type": "certification",
+    "icon": "fas fa-certificate",
+    "title": "REST APIs with Flask and Python in 2025",
+    "institution": "Udemy",
+    "year": "2025",
+    "description": "Build professional REST APIs with Python, Flask, Docker, Flask-Smorest, and Flask-SQLAlchemy.",
+    "linkUrl": "https://www.udemy.com/certificate/UC-387a9ab9-1ae0-469a-aa72-534cbba51f7b/",
+    "linkLabel": "Certificate"
+  },
+  {
+    "id": "python-django",
+    "type": "certification",
+    "icon": "fas fa-certificate",
+    "title": "Python Django - The Practical Guide",
+    "institution": "Udemy",
+    "year": "2024",
+    "description": "Learn how to build web applications and websites with Python and the Django framework.",
+    "linkUrl": "https://www.udemy.com/certificate/UC-daa55d0c-0204-4059-98da-ce9e53065c15/",
+    "linkLabel": "Certificate"
+  },
+  {
+    "id": "css-complete-guide",
+    "type": "certification",
+    "icon": "fas fa-certificate",
+    "title": "CSS - The Complete Guide (incl. Flexbox, Grid & Sass)",
+    "institution": "Udemy",
+    "year": "2023",
+    "description": "Learn CSS for the first time or brush up your CSS skills and dive in even deeper. EVERY web developer has to know CSS.",
+    "linkUrl": "https://www.udemy.com/certificate/UC-14626944-8dd6-44d1-9557-15baba66f685/",
+    "linkLabel": "Certificate"
+  },
+  {
+    "id": "nodejs-complete",
+    "type": "certification",
+    "icon": "fas fa-certificate",
+    "title": "The Complete Node.js Developer Course (3rd Edition)",
+    "institution": "Udemy",
+    "year": "2022",
+    "description": "Learn Node.js by building real-world applications with Node JS, Express, MongoDB, Jest, and more!",
+    "linkUrl": "https://www.udemy.com/certificate/UC-30f2e257-707c-492c-8385-e87ace8f53f6/",
+    "linkLabel": "Certificate"
+  }
+]
