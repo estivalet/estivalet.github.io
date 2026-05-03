@@ -4,53 +4,95 @@
     "title": "EcoStore - E-commerce Platform",
     "description": "Full-stack e-commerce solution with user authentication, payment processing, inventory management, and admin dashboard. Built with React, Node.js, and Stripe integration.",
     "icon": "fas fa-shopping-cart",
-    "technologies": ["React", "Node.js", "MongoDB", "Stripe API", "JWT"],
+    "technologies": [
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Stripe API",
+      "JWT"
+    ],
     "liveUrl": "#",
-    "githubUrl": "#"
+    "githubUrl": "#",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80"
   },
   {
     "id": "taskflow",
     "title": "TaskFlow - Project Management",
     "description": "Collaborative project management tool with real-time updates, team collaboration features, file sharing, and advanced analytics. Supports agile workflows and team productivity tracking.",
     "icon": "fas fa-tasks",
-    "technologies": ["Vue.js", "Express.js", "PostgreSQL", "Socket.io", "AWS S3"],
+    "technologies": [
+      "Vue.js",
+      "Express.js",
+      "PostgreSQL",
+      "Socket.io",
+      "AWS S3"
+    ],
     "liveUrl": "#",
-    "githubUrl": "#"
+    "githubUrl": "#",
+    "image": "https://images.unsplash.com/photo-1504868584819-f81d14e4b52b?auto=format&fit=crop&w=600&q=80"
   },
   {
     "id": "cryptotracker",
     "title": "CryptoTracker - Investment Dashboard",
     "description": "Real-time cryptocurrency tracking application with portfolio management, price alerts, news integration, and advanced charting. Features include market analysis and trading signals.",
     "icon": "fas fa-chart-line",
-    "technologies": ["React", "TypeScript", "Python", "Django", "Redis"],
+    "technologies": [
+      "React",
+      "TypeScript",
+      "Python",
+      "Django",
+      "Redis"
+    ],
     "liveUrl": "#",
-    "githubUrl": "#"
+    "githubUrl": "#",
+    "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&q=80"
   },
   {
     "id": "connecthub",
     "title": "ConnectHub - Social Platform",
     "description": "Modern social networking platform with real-time messaging, content sharing, friend connections, and privacy controls. Includes advanced search and recommendation algorithms.",
     "icon": "fas fa-users",
-    "technologies": ["Next.js", "GraphQL", "Prisma", "PostgreSQL", "Docker"],
+    "technologies": [
+      "Next.js",
+      "GraphQL",
+      "Prisma",
+      "PostgreSQL",
+      "Docker"
+    ],
     "liveUrl": "#",
-    "githubUrl": "#"
+    "githubUrl": "#",
+    "image": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?auto=format&fit=crop&w=600&q=80"
   },
   {
     "id": "learnai",
     "title": "LearnAI - Educational Platform",
     "description": "AI-powered learning platform with personalized course recommendations, progress tracking, interactive quizzes, and peer collaboration. Includes machine learning for adaptive learning paths.",
     "icon": "fas fa-brain",
-    "technologies": ["React", "Python", "TensorFlow", "FastAPI", "MongoDB"],
+    "technologies": [
+      "React",
+      "Python",
+      "TensorFlow",
+      "FastAPI",
+      "MongoDB"
+    ],
     "liveUrl": "#",
-    "githubUrl": "#"
+    "githubUrl": "#",
+    "image": "https://images.unsplash.com/photo-1555680202-c86f0e12f086?auto=format&fit=crop&w=600&q=80"
   },
   {
     "id": "gamevault",
     "title": "GameVault - Gaming Community",
     "description": "Gaming community platform with user profiles, game reviews, tournament organization, and leaderboards. Features real-time chat, streaming integration, and social gaming features.",
     "icon": "fas fa-gamepad",
-    "technologies": ["React", "Node.js", "Socket.io", "MongoDB", "AWS"],
+    "technologies": [
+      "React",
+      "Node.js",
+      "Socket.io",
+      "MongoDB",
+      "AWS"
+    ],
     "liveUrl": "#",
-    "githubUrl": "#"
+    "githubUrl": "#",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80"
   }
 ]
