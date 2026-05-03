@@ -1,0 +1,50 @@
+[
+  {
+    "id": "playwright-masterclass",
+    "title": "Playwright JS/TS Automation Masterclass",
+    "description": "Master end-to-end testing with Playwright. Learn to build robust, scalable, and maintainable test frameworks from scratch using JavaScript and TypeScript.",
+    "icon": "fas fa-laptop-code",
+    "technologies": ["Playwright", "TypeScript", "JavaScript", "CI/CD"],
+    "courseUrl": "https://udemy.com"
+  },
+  {
+    "id": "cypress-testing",
+    "title": "Cypress Modern Web Testing",
+    "description": "Complete guide to web automation using Cypress. Covers component testing, API testing, and advanced UI testing patterns for modern web applications.",
+    "icon": "fas fa-vial",
+    "technologies": ["Cypress", "JavaScript", "Mocha", "Chai"],
+    "courseUrl": "https://udemy.com"
+  },
+  {
+    "id": "selenium-advanced",
+    "title": "Advanced Selenium WebDriver",
+    "description": "Deep dive into Selenium WebDriver. Build enterprise-grade testing frameworks, handle complex web elements, and integrate with continuous integration pipelines.",
+    "icon": "fas fa-spider",
+    "technologies": ["Selenium", "Java", "TestNG", "Maven"],
+    "courseUrl": "https://udemy.com"
+  },
+  {
+    "id": "api-testing",
+    "title": "REST API Testing with Postman & RestAssured",
+    "description": "Learn comprehensive API testing strategies. From manual testing with Postman to automated CI/CD integration using RestAssured.",
+    "icon": "fas fa-server",
+    "technologies": ["Postman", "RestAssured", "Java", "APIs"],
+    "courseUrl": "https://udemy.com"
+  },
+  {
+    "id": "python-automation",
+    "title": "Python for Test Automation",
+    "description": "Learn Python programming specifically tailored for test automation engineers. Covers PyTest, Selenium, and building testing utilities.",
+    "icon": "fab fa-python",
+    "technologies": ["Python", "PyTest", "Selenium", "Requests"],
+    "courseUrl": "https://udemy.com"
+  },
+  {
+    "id": "performance-testing",
+    "title": "JMeter Performance Testing",
+    "description": "Master load and performance testing with Apache JMeter. Learn to design realistic load scenarios, analyze results, and find performance bottlenecks.",
+    "icon": "fas fa-tachometer-alt",
+    "technologies": ["JMeter", "Performance", "Load Testing"],
+    "courseUrl": "https://udemy.com"
+  }
+]

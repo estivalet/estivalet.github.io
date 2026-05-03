@@ -1181,6 +1181,7 @@
           <li><a href="index.html#about">About</a></li>
           <li><a href="index.html#skills">Skills</a></li>
           <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#courses">Courses</a></li>
           <li><a href="index.html#projects">Projects</a></li>
           <li><a href="index.html#games">Games</a></li>
           <li><a href="index.html#experience">Experience</a></li>
@@ -1377,6 +1378,52 @@
 
     // Create particles periodically
     setInterval(createParticle, 300);
+    // Dynamic Courses Loading
+    async function loadCourses() {
+      const grid = document.getElementById('featured-courses-grid');
+      if (!grid) return;
+
+      try {
+        const response = await fetch('courses.json');
+        if (!response.ok) throw new Error('Failed to load courses');
+
+        const courses = await response.json();
+        const featuredCourses = courses.slice(0, 6);
+
+        grid.innerHTML = ''; // Clear loading spinner
+
+        featuredCourses.forEach(course => {
+          const techTags = course.technologies.map(tech => `<span class="tech-tag">${tech}</span>`).join('');
+
+          const card = document.createElement('div');
+          card.className = 'project-card fade-in visible';
+          card.innerHTML = `
+            <div class="project-image">
+              <i class="${course.icon}"></i>
+            </div>
+            <div class="project-content">
+              <h3>${course.title}</h3>
+              <p>${course.description}</p>
+              <div class="project-tech">
+                ${techTags}
+              </div>
+              <div class="project-links">
+                <a href="${course.courseUrl}" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> View Course</a>
+              </div>
+            </div>
+          `;
+          grid.appendChild(card);
+
+          if (typeof observer !== 'undefined') {
+            observer.observe(card);
+          }
+        });
+      } catch (error) {
+        console.error('Error loading courses:', error);
+        grid.innerHTML = '<p style="text-align: center; color: var(--text-muted);">Failed to load courses. Please try again later.</p>';
+      }
+    }
+
     // Dynamic Projects Loading
     async function loadProjects() {
       const grid = document.getElementById('featured-projects-grid');
@@ -1475,6 +1522,7 @@
 
     // Load dynamic content on page load
     window.addEventListener("DOMContentLoaded", () => {
+      loadCourses();
       loadProjects();
       loadGames();
     });

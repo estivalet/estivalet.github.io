@@ -7,7 +7,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
     rel="stylesheet" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>All Projects | Estivalet</title>
+  <title>All Courses | Estivalet</title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
   <style>
     * {
@@ -1194,24 +1194,24 @@
     </div>
   </nav>
 
-  <section id="all-projects" class="section" style="padding-top: 8rem; min-height: calc(100vh - 100px);">
+  <section id="all-courses" class="section" style="padding-top: 8rem; min-height: calc(100vh - 100px);">
     <div class="container">
       <div class="section-header fade-in">
-        <h2>All Projects</h2><span class="section-accent"></span>
-        <p>A comprehensive list of my development work and automation solutions</p>
+        <h2>All Courses</h2><span class="section-accent"></span>
+        <p>A comprehensive list of my automated testing and software engineering courses</p>
       </div>
       
       <div class="view-all-container fade-in" style="text-align: center; margin-bottom: 3rem;">
-        <a href="index.html#projects" class="btn btn-secondary" style="padding: 0.8rem 1.5rem;">
+        <a href="index.html#courses" class="btn btn-secondary" style="padding: 0.8rem 1.5rem;">
           <i class="fas fa-arrow-left" style="margin-right: 0.5rem;"></i> Back to Home
         </a>
       </div>
 
-      <div id="all-projects-grid" class="projects-grid">
-        <!-- Projects will be loaded here dynamically via JavaScript -->
+      <div id="all-courses-grid" class="projects-grid">
+        <!-- Courses will be loaded here dynamically via JavaScript -->
         <div class="project-card fade-in" style="text-align: center; padding: 3rem;">
           <i class="fas fa-spinner fa-spin" style="font-size: 2rem; color: var(--accent-primary);"></i>
-          <p style="margin-top: 1rem; color: var(--text-secondary);">Loading projects...</p>
+          <p style="margin-top: 1rem; color: var(--text-secondary);">Loading courses...</p>
         </div>
       </div>
     </div>
@@ -1380,7 +1380,7 @@
     setInterval(createParticle, 300);
     // Dynamic Courses Loading
     async function loadCourses() {
-      const grid = document.getElementById('featured-courses-grid');
+      const grid = document.getElementById('all-courses-grid');
       if (!grid) return;
 
       try {
@@ -1388,7 +1388,7 @@
         if (!response.ok) throw new Error('Failed to load courses');
 
         const courses = await response.json();
-        const featuredCourses = courses.slice(0, 6);
+        const featuredCourses = courses;
 
         grid.innerHTML = ''; // Clear loading spinner
 
@@ -1426,7 +1426,7 @@
 
     // Dynamic Projects Loading
     async function loadProjects() {
-      const grid = document.getElementById('all-projects-grid');
+      const grid = document.getElementById('featured-projects-grid');
       if (!grid) return;
 
       try {
@@ -1434,7 +1434,7 @@
         if (!response.ok) throw new Error('Failed to load projects');
 
         const projects = await response.json();
-        const featuredProjects = projects;
+        const featuredProjects = projects.slice(0, 6);
 
         grid.innerHTML = ''; // Clear loading spinner
 
