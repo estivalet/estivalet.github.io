@@ -1,58 +1,12 @@
 [
   {
-    "id": "space-defender",
-    "title": "Space Defender",
-    "description": "A classic 2D space shooter with power-ups, boss battles, and a global high-score system. Defend the galaxy from endless waves of alien invaders.",
+    "id": "memory-card",
+    "title": "Kinder Fix - Memory Game",
+    "description": "A fun and interactive memory card game built with HTML, CSS, and JavaScript! Test your memory by matching pairs of cards and clearing the board!",
     "icon": "fas fa-space-shuttle",
-    "technologies": [
-      "Unity",
-      "C#",
-      "WebGL"
-    ],
-    "playUrl": "#",
+    "technologies": ["HTML", "CSS", "Javascript"],
+    "playUrl": "https://estivalet.github.io/kinder-fix-memory-game/",
     "githubUrl": "#",
-    "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&q=80"
-  },
-  {
-    "id": "puzzle-quest",
-    "title": "Puzzle Quest 3D",
-    "description": "A mind-bending 3D puzzle platformer where you manipulate gravity to navigate complex mazes and overcome obstacles.",
-    "icon": "fas fa-cube",
-    "technologies": [
-      "Unreal Engine",
-      "C++",
-      "Blender"
-    ],
-    "playUrl": "#",
-    "githubUrl": "#",
-    "image": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?auto=format&fit=crop&w=600&q=80"
-  },
-  {
-    "id": "retro-racer",
-    "title": "Retro Racer",
-    "description": "An arcade-style racing game with a synthwave aesthetic, featuring customizable vehicles, multiple tracks, and local multiplayer.",
-    "icon": "fas fa-car-side",
-    "technologies": [
-      "Godot",
-      "GDScript",
-      "Aseprite"
-    ],
-    "playUrl": "#",
-    "githubUrl": "#",
-    "image": "https://images.unsplash.com/photo-1555680202-c86f0e12f086?auto=format&fit=crop&w=600&q=80"
-  },
-  {
-    "id": "dungeon-crawler",
-    "title": "Abyss Crawler",
-    "description": "A roguelike dungeon crawler with procedurally generated levels, turn-based combat, and deep inventory management.",
-    "icon": "fas fa-dragon",
-    "technologies": [
-      "Phaser.js",
-      "JavaScript",
-      "HTML5 Canvas"
-    ],
-    "playUrl": "#",
-    "githubUrl": "#",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80"
+    "image": "assets/img/memory-card.jpg"
   }
 ]
