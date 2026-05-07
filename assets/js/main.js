@@ -141,6 +141,14 @@
 
       // Create particles periodically
       setInterval(createParticle, 300);
+    // ── Path helper (works from root AND from pages/ subfolder) ──────────────
+    const BASE = (() => {
+      const path = window.location.pathname;
+      if (path.includes('/pages/courses/')) return '../../';
+      if (path.includes('/pages/')) return '../';
+      return '';
+    })();
+
     // ── Smart Data Loaders ────────────────────────────────────────────────────
     // Each loader checks for both the featured grid (index.html, shows top 6)
     // and the full-page grid (subpages, shows all items).
@@ -163,14 +171,24 @@
       `;
     }
 
+    // Prefix relative image paths with BASE so they resolve correctly from any subfolder
+    function imgSrc(path) {
+      return (path && !path.startsWith('http')) ? BASE + path : (path || '');
+    }
+
     function buildProjectCard(item) {
       const techTags = item.technologies.map(t => `<span class="tech-tag">${t}</span>`).join('');
       const links = item.courseUrl
-        ? `<a href="${item.courseUrl}" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> View Course</a>`
+        ? (() => {
+            const isLocal = !item.courseUrl.startsWith('http');
+            const href = isLocal ? BASE + item.courseUrl : item.courseUrl;
+            const target = isLocal ? '' : 'target="_blank" rel="noopener"';
+            return `<a href="${href}" ${target}><i class="fas fa-${isLocal ? 'book-open' : 'external-link-alt'}"></i> View Course</a>`;
+          })()
         : `<a href="${item.liveUrl || '#'}" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> Live Demo</a>
            <a href="${item.githubUrl || '#'}" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>`;
       return `
-        <div class="project-image"><img src="${item.image}" alt="${item.title}"></div>
+        <div class="project-image"><img src="${imgSrc(item.image)}" alt="${item.title}"></div>
         <div class="project-content">
           <h3>${item.title}</h3>
           <p>${item.description}</p>
@@ -183,7 +201,7 @@
     function buildGameCard(item) {
       const techTags = item.technologies.map(t => `<span class="tech-tag">${t}</span>`).join('');
       return `
-        <div class="project-image"><img src="${item.image}" alt="${item.title}"></div>
+        <div class="project-image"><img src="${imgSrc(item.image)}" alt="${item.title}"></div>
         <div class="project-content">
           <h3>${item.title}</h3>
           <p>${item.description}</p>
@@ -223,16 +241,16 @@
     }
 
     function loadEducation() {
-      return loadSection({ jsonFile: 'education.json', featuredId: 'education-grid', allId: 'all-education-grid', limit: 6, cardClass: 'education-card', buildFn: buildEducationCard });
+      return loadSection({ jsonFile: BASE + 'data/education.json', featuredId: 'education-grid', allId: 'all-education-grid', limit: 6, cardClass: 'education-card', buildFn: buildEducationCard });
     }
     function loadCourses() {
-      return loadSection({ jsonFile: 'courses.json', featuredId: 'featured-courses-grid', allId: 'all-courses-grid', limit: 6, cardClass: 'project-card', buildFn: buildProjectCard });
+      return loadSection({ jsonFile: BASE + 'data/courses.json', featuredId: 'featured-courses-grid', allId: 'all-courses-grid', limit: 6, cardClass: 'project-card', buildFn: buildProjectCard });
     }
     function loadProjects() {
-      return loadSection({ jsonFile: 'projects.json', featuredId: 'featured-projects-grid', allId: 'all-projects-grid', limit: 6, cardClass: 'project-card', buildFn: buildProjectCard });
+      return loadSection({ jsonFile: BASE + 'data/projects.json', featuredId: 'featured-projects-grid', allId: 'all-projects-grid', limit: 6, cardClass: 'project-card', buildFn: buildProjectCard });
     }
     function loadGames() {
-      return loadSection({ jsonFile: 'games.json', featuredId: 'featured-games-grid', allId: 'all-games-grid', limit: 6, cardClass: 'project-card', buildFn: buildGameCard });
+      return loadSection({ jsonFile: BASE + 'data/games.json', featuredId: 'featured-games-grid', allId: 'all-games-grid', limit: 6, cardClass: 'project-card', buildFn: buildGameCard });
     }
 
     window.addEventListener('DOMContentLoaded', async () => {

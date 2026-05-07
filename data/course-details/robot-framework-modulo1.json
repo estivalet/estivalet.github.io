@@ -1,0 +1,203 @@
+{
+  "id": "robot-framework-modulo1",
+  "title": "Testes Automatizados Usando Robot Framework – Módulo 1",
+  "subtitle": "Automatizando um cadastro de clientes com o Robot Framework",
+  "image": "assets/img/robot-framework-modulo1.webp",
+  "videoUrl": "",
+  "rating": 4.7,
+  "ratingCount": "77",
+  "students": "227",
+  "lastUpdated": "Novembro 2024",
+  "language": "Português",
+  "level": "Iniciante",
+  "totalLectures": 17,
+  "totalDuration": "3h 44min",
+  "udemyUrl": "https://www.udemy.com/course/testes-automatizados-usando-robot-framework-modulo-1/",
+  "technologies": [
+    "Python",
+    "RobotFramework"
+  ],
+  "includes": [
+    {
+      "icon": "fas fa-video",
+      "text": "4 horas de vídeo sob demanda"
+    },
+    {
+      "icon": "fas fa-file-alt",
+      "text": "1 artigo"
+    },
+    {
+      "icon": "fas fa-download",
+      "text": "6 recursos para download"
+    },
+    {
+      "icon": "fas fa-list",
+      "text": "17 aulas em 8 seções"
+    },
+    {
+      "icon": "fas fa-infinity",
+      "text": "Acesso vitalício"
+    },
+    {
+      "icon": "fas fa-mobile-alt",
+      "text": "Acesso no mobile e TV"
+    },
+    {
+      "icon": "fas fa-certificate",
+      "text": "Certificado de conclusão"
+    }
+  ],
+  "whatYouLearn": [
+    "Instalar e configurar a Robot Framework",
+    "Criar e rodar scripts com a biblioteca Selenium",
+    "Explorar as principais bibliotecas",
+    "Trabalhar com variáveis, listas e dicionários",
+    "Trabalhar com estruturas lógicas de controle e condicionais",
+    "Setup e TearDown para pré-condições e pós-condições de testes",
+    "Padrão de projeto Page Object",
+    "Automatizar uma página de cadastro de clientes",
+    "Criar palavras-chave personalizadas"
+  ],
+  "requirements": [
+    "Noção básica de teste de software e que saiba como criar testes manuais para servir de base para seus testes automatizados",
+    "Noção básica de lógica de programação (variáveis, funções, métodos, argumentos e laços)",
+    "Não é necessário ter experiência prévia em programação usando o Selenium ou em automação de teste"
+  ],
+  "description": "O curso apresenta o Robot Framework, uma ferramenta poderosa para automação de testes através de escrita natural. O Robot é genérico e permite automatizar sites, APIs, desktop e mobile sem exigir conhecimento profundo em linguagens de programação.\n\nO curso foca nos fundamentos, instalação, bibliotecas (especialmente Selenium) e guia o aluno passo-a-passo na automação de um sistema de cadastro de clientes usando o padrão Page Objects.",
+  "sections": [
+    {
+      "title": "Introdução",
+      "lectures": 2,
+      "duration": "14min",
+      "lessons": [
+        {
+          "title": "Apresentação",
+          "duration": "6:17"
+        },
+        {
+          "title": "Robot Framework - O que é, características e recursos",
+          "duration": "7:58"
+        }
+      ]
+    },
+    {
+      "title": "Preparação do ambiente",
+      "lectures": 2,
+      "duration": "13min",
+      "lessons": [
+        {
+          "title": "Instalação",
+          "duration": "7:35"
+        },
+        {
+          "title": "Editores",
+          "duration": "5:14"
+        }
+      ]
+    },
+    {
+      "title": "Iniciando com o Robot Framework",
+      "lectures": 6,
+      "duration": "1h 16min",
+      "lessons": [
+        {
+          "title": "Variáveis",
+          "duration": "13:48"
+        },
+        {
+          "title": "Bibliotecas - Builtin",
+          "duration": "24:14"
+        },
+        {
+          "title": "Bibliotecas - String",
+          "duration": "9:15"
+        },
+        {
+          "title": "Bibliotecas - DateTime",
+          "duration": "5:18"
+        },
+        {
+          "title": "Bibliotecas - OperatingSystem",
+          "duration": "5:27"
+        },
+        {
+          "title": "Estruturas - Condicionais e Loops",
+          "duration": "18:07"
+        }
+      ]
+    },
+    {
+      "title": "Robot Framework - Selenium",
+      "lectures": 2,
+      "duration": "1h 3min",
+      "lessons": [
+        {
+          "title": "Primeiro script usando Robot com Selenium",
+          "duration": "24:37"
+        },
+        {
+          "title": "Automatizando um Sistema de Cadastro de Clientes",
+          "duration": "38:43"
+        }
+      ]
+    },
+    {
+      "title": "Design Pattern Page Objects",
+      "lectures": 1,
+      "duration": "23min",
+      "lessons": [
+        {
+          "title": "Aplicando padrão Page Objects no Cadastro de Clientes",
+          "duration": "23:20"
+        }
+      ]
+    },
+    {
+      "title": "Setup e Teardown para o Cadastro de Clientes",
+      "lectures": 1,
+      "duration": "19min",
+      "lessons": [
+        {
+          "title": "Setup e Teardown",
+          "duration": "19:01"
+        }
+      ]
+    },
+    {
+      "title": "Validação dos campos do Cadastro de Clientes",
+      "lectures": 1,
+      "duration": "8min",
+      "lessons": [
+        {
+          "title": "Casos de Teste para Validação de campos obrigatórios",
+          "duration": "8:01"
+        }
+      ]
+    },
+    {
+      "title": "Finalização e código-fonte dos scripts de teste",
+      "lectures": 2,
+      "duration": "8min",
+      "lessons": [
+        {
+          "title": "Revisão do relatório de teste e conclusão",
+          "duration": "7:40"
+        },
+        {
+          "title": "Próximos passos",
+          "duration": "0:04"
+        }
+      ]
+    }
+  ],
+  "instructor": {
+    "name": "Luiz Fernando Estivalet",
+    "title": "Senior Automation Engineer",
+    "bio": "Complete Bachelor and Master degrees in Computer Science. English fluency. Information Technology professional with over 20 years of experience, working at major industrial companies such as Dell, Accenture and Serpro. Out of them, 5 years working on distributed teams across the globe. Strong technical and analytical problem solving coupled with ability to negotiate, manage systems and programs. Experienced in architecture and design of web systems, requirements gathering, and team leading. Specialties: Python, Selenium Web application testing system, Robot Framework",
+    "avatar": "assets/img/me2.png",
+    "rating": 4.7,
+    "students": "1400+",
+    "courses": 10
+  },
+  "reviews": []
+}

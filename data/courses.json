@@ -6,7 +6,7 @@
     "icon": "fas fa-laptop-code",
     "cover": "assets/img/python-zero-automacao.webp",
     "technologies": ["Python", "Selenium", "pyautogui"],
-    "courseUrl": "https://udemy.com",
+    "courseUrl": "pages/courses/course.html?id=python-do-zero-a-automacao",
     "image": "assets/img/python-zero-automacao.webp"
   },
   {
@@ -15,7 +15,7 @@
     "description": "Curso prático de Python com Tkinter para criação de interfaces gráficas, ideal para iniciantes e intermediários. Ensina a desenvolver janelas, botões, menus e outros componentes, além de conceitos como eventos, layout e boas práticas de usabilidade. Com projetos guiados, o aluno aprende a criar aplicações completas, como calculadoras, ferramentas e jogos simples.",
     "icon": "fas fa-vial",
     "technologies": ["Python", "tkinter"],
-    "courseUrl": "https://udemy.com",
+    "courseUrl": "pages/courses/course.html?id=python-tkinter",
     "image": "assets/img/python-tkinter.webp"
   },
   {
@@ -24,7 +24,7 @@
     "description": "Curso prático de Git e GitHub que ensina controle de versões do básico ao avançado. Aborda criação de repositórios, commits, branches, merges e resolução de conflitos, além de colaboração com pull requests e boas práticas em projetos. Ao final, o aluno estará preparado para gerenciar código com segurança e trabalhar em equipe de forma eficiente.",
     "icon": "fas fa-spider",
     "technologies": ["Git", "GitHub"],
-    "courseUrl": "https://udemy.com",
+    "courseUrl": "pages/courses/course.html?id=git-github-na-pratica",
     "image": "assets/img/git-github-na-pratica.webp"
   },
   {
@@ -33,7 +33,7 @@
     "description": "Curso de introdução ao TypeScript focado em tipagem estática, qualidade de código e escalabilidade. Aborda sistema de tipos, funções, orientação a objetos, programação assíncrona e modularização. Com projetos práticos, o aluno aprende a configurar ambientes e desenvolver aplicações mais seguras, organizadas e fáceis de manter.",
     "icon": "fas fa-server",
     "technologies": ["TypeScript"],
-    "courseUrl": "https://udemy.com",
+    "courseUrl": "pages/courses/course.html?id=introducao-typescript",
     "image": "assets/img/introducao-typescript.webp"
   },
   {
@@ -42,7 +42,7 @@
     "description": "Curso introdutório de SQL que ensina os fundamentos da linguagem de forma prática e universal. Aborda criação e manipulação de dados, consultas com WHERE, ORDER BY, GROUP BY, funções de agregação e relacionamentos com JOINs. Ao final, o aluno estará preparado para trabalhar com bancos de dados relacionais em diferentes sistemas.",
     "icon": "fab fa-python",
     "technologies": ["SQL", "PostgreSQL"],
-    "courseUrl": "https://udemy.com",
+    "courseUrl": "pages/courses/course.html?id=introducao-sql",
     "image": "assets/img/introducao-sql.webp"
   },
   {
@@ -51,7 +51,7 @@
     "description": "Curso de SQLite3 com Python que ensina como criar e gerenciar bancos de dados de forma simples e eficiente. Aborda conexão, criação de tabelas, execução de comandos SQL e manipulação de dados (CRUD). Ideal para iniciantes, cobre do básico ao avançado com foco em boas práticas e aplicações reais.",
     "icon": "fas fa-tachometer-alt",
     "technologies": ["Python", "sqlite3"],
-    "courseUrl": "https://udemy.com",
+    "courseUrl": "pages/courses/course.html?id=python-sqlite3",
     "image": "assets/img/python-sqlite3.webp"
   },
   {
@@ -60,7 +60,7 @@
     "description": "Curso introdutório de JavaScript ideal para iniciantes, cobrindo conceitos básicos como variáveis, estruturas de controle, funções e manipulação do DOM. Com exemplos práticos, ensina a criar páginas web interativas e dinâmicas. Ao final, o aluno terá uma base sólida para desenvolver projetos e avançar no desenvolvimento web.",
     "icon": "fas fa-tachometer-alt",
     "technologies": ["Javascript"],
-    "courseUrl": "https://udemy.com",
+    "courseUrl": "pages/courses/course.html?id=javascript-primeiros-passos",
     "image": "assets/img/javascript-primeiros-passos.webp"
   },
   {
@@ -69,7 +69,7 @@
     "description": "Curso introdutório de desenvolvimento web que ensina HTML, CSS e JavaScript do zero. Aborda estrutura de páginas, estilização com layouts modernos e interatividade com programação básica. Ao final, o aluno terá base sólida para criar sites responsivos e dinâmicos.",
     "icon": "fas fa-tachometer-alt",
     "technologies": ["HTML", "CSS", "Javascript"],
-    "courseUrl": "https://udemy.com",
+    "courseUrl": "pages/courses/course.html?id=html-css-js",
     "image": "assets/img/html-css-js.webp"
   },
   {
@@ -78,7 +78,7 @@
     "description": "Curso introdutório de testes automatizados com Robot Framework, focado em automação simples e acessível. Ensina fundamentos, instalação, uso de palavras-chave e integração com Selenium para testes web. Ao final, o aluno será capaz de automatizar cenários de teste de forma prática, mesmo sem experiência avançada em programação.",
     "icon": "fas fa-tachometer-alt",
     "technologies": ["Python", "RobotFramework"],
-    "courseUrl": "https://udemy.com",
+    "courseUrl": "pages/courses/course.html?id=robot-framework-modulo1",
     "image": "assets/img/robot-framework-modulo1.webp"
   },
   {
@@ -87,7 +87,7 @@
     "description": "Curso avançado de Robot Framework que aprofunda a automação de testes com APIs, banco de dados e Data Driven Tests. Aborda uso de bibliotecas como Requests e DatabaseLibrary, além de XPath avançado e boas práticas com ferramentas de lint. Ao final, o aluno será capaz de criar testes mais robustos, organizados e escaláveis.",
     "icon": "fas fa-tachometer-alt",
     "technologies": ["Python", "RobotFramework"],
-    "courseUrl": "https://udemy.com",
+    "courseUrl": "pages/courses/course.html?id=robot-framework-modulo2",
     "image": "assets/img/robot-framework-modulo2.webp"
   }
 ]

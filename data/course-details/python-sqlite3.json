@@ -1,0 +1,378 @@
+{
+  "id": "python-sqlite3",
+  "title": "Usando Banco de Dados SQLite3 em Python",
+  "subtitle": "Conecte suas aplicações Python a um banco de dados leve e poderoso",
+  "image": "assets/img/python-sqlite3.webp",
+  "videoUrl": "",
+  "rating": 4.6,
+  "ratingCount": "430",
+  "students": "2.100+",
+  "lastUpdated": "Novembro 2023",
+  "language": "Português",
+  "level": "Iniciante",
+  "totalLectures": 58,
+  "totalDuration": "5h 38min",
+  "udemyUrl": "https://www.udemy.com/course/usando-banco-de-dados-sqlite3-em-python/",
+  "technologies": [
+    "Python",
+    "SQLite3"
+  ],
+  "includes": [
+    {
+      "icon": "fas fa-video",
+      "text": "5,5 horas de vídeo sob demanda"
+    },
+    {
+      "icon": "fas fa-list",
+      "text": "58 aulas em 12 seções"
+    },
+    {
+      "icon": "fas fa-infinity",
+      "text": "Acesso vitalício"
+    },
+    {
+      "icon": "fas fa-certificate",
+      "text": "Certificado de conclusão"
+    }
+  ],
+  "whatYouLearn": [
+    "Conectar o Python ao SQLite3",
+    "Criar tabelas no banco de dados",
+    "Inserir dados dinamicamente usando Python",
+    "Realizar consultas e ler dados",
+    "Atualizar e deletar registros (CRUD)",
+    "Gerenciar cursores e conexões"
+  ],
+  "requirements": [
+    "Conhecimento básico da linguagem Python"
+  ],
+  "description": "O SQLite3 vem embutido na linguagem Python, tornando-se a escolha ideal para pequenos projetos, automações e aplicativos locais que precisam armazenar dados.\n\nNeste curso direto ao ponto, você vai aprender a realizar todas as operações fundamentais de um banco de dados (CRUD) usando a biblioteca nativa sqlite3 do Python.",
+  "sections": [
+    {
+      "title": "Introdução",
+      "lectures": 6,
+      "duration": "31min",
+      "lessons": [
+        {
+          "title": "Introdução ao Banco de Dados SQLite",
+          "duration": "5:35"
+        },
+        {
+          "title": "Módulo Python para SQLite",
+          "duration": "7:10"
+        },
+        {
+          "title": "Instalação do Visual Studio Code",
+          "duration": "1:52"
+        },
+        {
+          "title": "Instalação do Python",
+          "duration": "3:09"
+        },
+        {
+          "title": "Introdução: Conectando ao SQLite com Python",
+          "duration": "4:55"
+        },
+        {
+          "title": "Introdução: Criando Tabelas e Manipulando Registros",
+          "duration": "8:19"
+        }
+      ]
+    },
+    {
+      "title": "Consultando Dados",
+      "lectures": 6,
+      "duration": "37min",
+      "lessons": [
+        {
+          "title": "Baixando Banco de Dados de Exemplo",
+          "duration": "5:36"
+        },
+        {
+          "title": "Introdução ao Comando SELECT",
+          "duration": "4:28"
+        },
+        {
+          "title": "Usando Comando SELECT",
+          "duration": "6:15"
+        },
+        {
+          "title": "Ordenando Registros com ORDER BY",
+          "duration": "8:03"
+        },
+        {
+          "title": "Selecionando Registros Distintos com DISTINCT",
+          "duration": "5:09"
+        },
+        {
+          "title": "Usando Comando CASE",
+          "duration": "7:57"
+        }
+      ]
+    },
+    {
+      "title": "Filtrando Dados",
+      "lectures": 9,
+      "duration": "46min",
+      "lessons": [
+        {
+          "title": "Filtrando Registros com WHERE",
+          "duration": "8:36"
+        },
+        {
+          "title": "Usando a cláusula AND",
+          "duration": "4:24"
+        },
+        {
+          "title": "Usando a cláusula OR",
+          "duration": "2:55"
+        },
+        {
+          "title": "Paginando Resultados com LIMIT e OFFSET",
+          "duration": "5:44"
+        },
+        {
+          "title": "Usando a cláusula BETWEEN",
+          "duration": "3:58"
+        },
+        {
+          "title": "Usando o Operador IN",
+          "duration": "5:14"
+        },
+        {
+          "title": "Usando o Operador LIKE",
+          "duration": "6:26"
+        },
+        {
+          "title": "Usando o Cláusula ISNULL",
+          "duration": "3:40"
+        },
+        {
+          "title": "Usando o Operador GLOB",
+          "duration": "4:51"
+        }
+      ]
+    },
+    {
+      "title": "Juntando Tabelas",
+      "lectures": 7,
+      "duration": "42min",
+      "lessons": [
+        {
+          "title": "Introdução",
+          "duration": "8:14"
+        },
+        {
+          "title": "INNER JOIN",
+          "duration": "9:07"
+        },
+        {
+          "title": "LEFT JOIN",
+          "duration": "6:47"
+        },
+        {
+          "title": "RIGHT JOIN",
+          "duration": "4:09"
+        },
+        {
+          "title": "CROSS JOIN",
+          "duration": "3:11"
+        },
+        {
+          "title": "SELF JOIN",
+          "duration": "5:54"
+        },
+        {
+          "title": "FULL OUTER JOIN",
+          "duration": "4:27"
+        }
+      ]
+    },
+    {
+      "title": "Agrupando Dados",
+      "lectures": 2,
+      "duration": "15min",
+      "lessons": [
+        {
+          "title": "GROUP BY",
+          "duration": "10:27"
+        },
+        {
+          "title": "HAVING",
+          "duration": "4:37"
+        }
+      ]
+    },
+    {
+      "title": "Operador de Conjunto",
+      "lectures": 3,
+      "duration": "13min",
+      "lessons": [
+        {
+          "title": "UNION",
+          "duration": "6:59"
+        },
+        {
+          "title": "EXCEPT",
+          "duration": "5:02"
+        },
+        {
+          "title": "INTERSECT",
+          "duration": "1:25"
+        }
+      ]
+    },
+    {
+      "title": "Subconsultas",
+      "lectures": 3,
+      "duration": "16min",
+      "lessons": [
+        {
+          "title": "Utilizando Subqueries",
+          "duration": "7:20"
+        },
+        {
+          "title": "Cláusula EXISTS",
+          "duration": "4:46"
+        },
+        {
+          "title": "Expressão Comum de Tabela (CTE)",
+          "duration": "3:34"
+        }
+      ]
+    },
+    {
+      "title": "Manipulando Dados de Tabelas",
+      "lectures": 4,
+      "duration": "21min",
+      "lessons": [
+        {
+          "title": "Inserindo Registros",
+          "duration": "6:37"
+        },
+        {
+          "title": "Atualizando Registros",
+          "duration": "5:05"
+        },
+        {
+          "title": "Atualizando Registros com UPDATE FROM",
+          "duration": "6:48"
+        },
+        {
+          "title": "Excluindo Registros",
+          "duration": "2:56"
+        }
+      ]
+    },
+    {
+      "title": "Criando Tabelas",
+      "lectures": 4,
+      "duration": "28min",
+      "lessons": [
+        {
+          "title": "Tipos de Dados do SQLite",
+          "duration": "10:34"
+        },
+        {
+          "title": "Comando CREATE TABLE",
+          "duration": "6:42"
+        },
+        {
+          "title": "Comando ALTER TABLE",
+          "duration": "5:12"
+        },
+        {
+          "title": "Comando DROP TABLE",
+          "duration": "5:54"
+        }
+      ]
+    },
+    {
+      "title": "Restrições de Integridade",
+      "lectures": 5,
+      "duration": "38min",
+      "lessons": [
+        {
+          "title": "Chave Primária (Primary Key)",
+          "duration": "8:18"
+        },
+        {
+          "title": "Chave Estrangeira (Foreign Key)",
+          "duration": "11:08"
+        },
+        {
+          "title": "Colunas NOT NULL",
+          "duration": "7:39"
+        },
+        {
+          "title": "Check Constraints",
+          "duration": "5:17"
+        },
+        {
+          "title": "Autoincremento",
+          "duration": "5:49"
+        }
+      ]
+    },
+    {
+      "title": "Views e Índices",
+      "lectures": 3,
+      "duration": "12min",
+      "lessons": [
+        {
+          "title": "Views no SQLite",
+          "duration": "5:48"
+        },
+        {
+          "title": "Usando Índices no SQLite",
+          "duration": "3:46"
+        },
+        {
+          "title": "Índices com Múltiplas Colunas",
+          "duration": "2:44"
+        }
+      ]
+    },
+    {
+      "title": "Integração com Python",
+      "lectures": 6,
+      "duration": "38min",
+      "lessons": [
+        {
+          "title": "Criando um Banco de Dados SQLite",
+          "duration": "4:59"
+        },
+        {
+          "title": "Criando Tabelas com o Módulo sqlite3",
+          "duration": "6:03"
+        },
+        {
+          "title": "Inserindo Dados em Tabelas com o Módulo sqlite3",
+          "duration": "10:21"
+        },
+        {
+          "title": "Atualizando Dados em Tabelas com o Módulo sqlite3",
+          "duration": "6:23"
+        },
+        {
+          "title": "Excluindo Dados de Tabelas com o Módulo sqlite3",
+          "duration": "2:05"
+        },
+        {
+          "title": "Consultando Dados de Tabelas com o Módulo sqlite3",
+          "duration": "8:02"
+        }
+      ]
+    }
+  ],
+  "instructor": {
+    "name": "Luiz Fernando Estivalet",
+    "title": "Senior Automation Engineer",
+    "bio": "Complete Bachelor and Master degrees in Computer Science. English fluency. Information Technology professional with over 20 years of experience, working at major industrial companies such as Dell, Accenture and Serpro. Out of them, 5 years working on distributed teams across the globe. Strong technical and analytical problem solving coupled with ability to negotiate, manage systems and programs. Experienced in architecture and design of web systems, requirements gathering, and team leading. Specialties: Python, Selenium Web application testing system, Robot Framework",
+    "avatar": "assets/img/me2.png",
+    "rating": 4.7,
+    "students": "1400+",
+    "courses": 10
+  },
+  "reviews": []
+}

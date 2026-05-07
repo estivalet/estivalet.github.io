@@ -1,0 +1,139 @@
+{
+  "id": "git-github-na-pratica",
+  "title": "Git e GitHub na Prática",
+  "subtitle": "Aprenda controle de versão de forma prática e direta para o dia a dia",
+  "image": "assets/img/git-github-na-pratica.webp",
+  "videoUrl": "",
+  "rating": 4.8,
+  "ratingCount": "1.450",
+  "students": "9.200+",
+  "lastUpdated": "Janeiro 2024",
+  "language": "Português",
+  "level": "Iniciante",
+  "totalLectures": 45,
+  "totalDuration": "3h 15min",
+  "udemyUrl": "https://www.udemy.com/course/git-github-na-pratica/",
+  "technologies": [
+    "Git",
+    "GitHub"
+  ],
+  "includes": [
+    {
+      "icon": "fas fa-video",
+      "text": "3 horas de vídeo sob demanda"
+    },
+    {
+      "icon": "fas fa-file-alt",
+      "text": "5 artigos"
+    },
+    {
+      "icon": "fas fa-list",
+      "text": "45 aulas em 6 seções"
+    },
+    {
+      "icon": "fas fa-infinity",
+      "text": "Acesso vitalício"
+    },
+    {
+      "icon": "fas fa-mobile-alt",
+      "text": "Acesso no mobile e TV"
+    },
+    {
+      "icon": "fas fa-certificate",
+      "text": "Certificado de conclusão"
+    }
+  ],
+  "whatYouLearn": [
+    "Comandos fundamentais do Git (add, commit, status, log)",
+    "Trabalhar com branches e estratégias de ramificação",
+    "Resolver conflitos de merge de forma profissional",
+    "Publicar projetos no GitHub e trabalhar de forma colaborativa",
+    "Utilizar Pull Requests para revisão de código",
+    "Reverter alterações com reset e revert"
+  ],
+  "requirements": [
+    "Computador com Windows, macOS ou Linux",
+    "Conhecimento básico de uso de terminal/linha de comando (opcional mas recomendado)",
+    "Nenhum conhecimento prévio de programação exigido"
+  ],
+  "description": "Neste curso prático você vai aprender a utilizar Git e GitHub no seu dia a dia. Chega de sofrer com pastas 'projeto_final', 'projeto_final_v2'.\n\nVamos focar nos comandos que você realmente vai usar no mercado de trabalho. Abordaremos criação de repositórios, commits, gerenciamento de branches, merges e resolução de conflitos.\n\nAlém disso, exploraremos a plataforma GitHub para colaboração em equipe, fluxo de Pull Requests e boas práticas.",
+  "sections": [
+    {
+      "title": "Git e GitHub na Prática",
+      "lectures": 15,
+      "duration": "1h45min",
+      "lessons": [
+        {
+          "title": "Introdução ao Git",
+          "duration": "4:38"
+        },
+        {
+          "title": "Instalação do Git",
+          "duration": "7:21"
+        },
+        {
+          "title": "Criando seu primeiro repositório local",
+          "duration": "4:54"
+        },
+        {
+          "title": "Adicionando arquivos no repositório local",
+          "duration": "8:57"
+        },
+        {
+          "title": "Realizando os primeiros commits",
+          "duration": "9:34"
+        },
+        {
+          "title": "Ajustando os commits",
+          "duration": "1:57"
+        },
+        {
+          "title": "Introdução ao GitHub",
+          "duration": "1:36"
+        },
+        {
+          "title": "Criando repositório no GitHub",
+          "duration": "11:56"
+        },
+        {
+          "title": "Enviando repositório local para o GitHub",
+          "duration": "3:18"
+        },
+        {
+          "title": "Trazendo alterações do GitHub para o repositório local",
+          "duration": "5:36"
+        },
+        {
+          "title": "Aprendendo a fazer branches",
+          "duration": "12:03"
+        },
+        {
+          "title": "Pull Requests",
+          "duration": "6:15"
+        },
+        {
+          "title": "Tratando conflitos",
+          "duration": "8:47"
+        },
+        {
+          "title": "Git Rebase",
+          "duration": "13:03"
+        },
+        {
+          "title": "Clonar Projeto do GitHub",
+          "duration": "5:20"
+        }
+      ]
+    }
+  ],
+  "instructor": {
+    "name": "Luiz Fernando Estivalet",
+    "title": "Senior Automation Engineer",
+    "bio": "Complete Bachelor and Master degrees in Computer Science. English fluency. Information Technology professional with over 20 years of experience, working at major industrial companies such as Dell, Accenture and Serpro. Out of them, 5 years working on distributed teams across the globe. Strong technical and analytical problem solving coupled with ability to negotiate, manage systems and programs. Experienced in architecture and design of web systems, requirements gathering, and team leading. Specialties: Python, Selenium Web application testing system, Robot Framework",
+    "avatar": "assets/img/me2.png",
+    "rating": 4.7,
+    "students": "1400+",
+    "courses": 10
+  },
+  "reviews": []
+}

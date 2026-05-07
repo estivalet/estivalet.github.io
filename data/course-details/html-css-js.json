@@ -1,0 +1,1084 @@
+{
+  "id": "html-css-js",
+  "title": "Introdução ao HTML, CSS e Javascript",
+  "subtitle": "Desenvolvimento Web para iniciantes absolutos",
+  "image": "assets/img/html-css-js.webp",
+  "videoUrl": "",
+  "rating": 4.5,
+  "ratingCount": "890",
+  "students": "4.300+",
+  "lastUpdated": "Setembro 2023",
+  "language": "Português",
+  "level": "Iniciante",
+  "totalLectures": 196,
+  "totalDuration": "13h 48m",
+  "udemyUrl": "https://www.udemy.com/course/introducao-ao-html-css-e-javascript/",
+  "technologies": [
+    "HTML",
+    "CSS",
+    "Javascript"
+  ],
+  "includes": [
+    {
+      "icon": "fas fa-video",
+      "text": "14 horas de vídeo sob demanda"
+    },
+    {
+      "icon": "fas fa-list",
+      "text": "196 aulas em 34 seções"
+    },
+    {
+      "icon": "fas fa-infinity",
+      "text": "Acesso vitalício"
+    },
+    {
+      "icon": "fas fa-certificate",
+      "text": "Certificado de conclusão"
+    }
+  ],
+  "whatYouLearn": [
+    "Estruturar páginas com HTML5",
+    "Estilizar páginas com CSS3",
+    "Criar layouts responsivos com Flexbox",
+    "Adicionar interatividade com JavaScript básico",
+    "Publicar um site simples"
+  ],
+  "requirements": [
+    "Nenhum requisito prévio, basta ter um computador"
+  ],
+  "description": "Quer entrar no mundo do desenvolvimento web? Este é o seu ponto de partida! Você aprenderá as 3 linguagens fundamentais da internet: HTML, CSS e JavaScript.\n\nCom uma abordagem totalmente prática, vamos construir layouts visuais interessantes e dar vida a eles usando Javascript.",
+  "sections": [
+    {
+      "title": "Instalação e Configuração do Ambiente de Desenvolvimento",
+      "lectures": 2,
+      "duration": "9min",
+      "lessons": [
+        {
+          "title": "Preparação do Ambiente",
+          "duration": "5:27"
+        },
+        {
+          "title": "Instalação do Visual Studio Code",
+          "duration": "3:22"
+        }
+      ]
+    },
+    {
+      "title": "Introdução ao HTML",
+      "lectures": 4,
+      "duration": "11min",
+      "lessons": [
+        {
+          "title": "Diferenças entre HTML, CSS e Javascript",
+          "duration": "2:19"
+        },
+        {
+          "title": "Visão Geral do HTML",
+          "duration": "3:48"
+        },
+        {
+          "title": "Primeiro Script HTML",
+          "duration": "2:21"
+        },
+        {
+          "title": "Extensões para o Visual Studio Code",
+          "duration": "2:25"
+        }
+      ]
+    },
+    {
+      "title": "Tags Básicas do HTML",
+      "lectures": 7,
+      "duration": "17min",
+      "lessons": [
+        {
+          "title": "Cabeçalhos",
+          "duration": "2:14"
+        },
+        {
+          "title": "Parágrafos",
+          "duration": "0:47"
+        },
+        {
+          "title": "Quebra de Linha",
+          "duration": "3:33"
+        },
+        {
+          "title": "Centralizando Texto",
+          "duration": "1:48"
+        },
+        {
+          "title": "Linha Horizontal",
+          "duration": "1:18"
+        },
+        {
+          "title": "Pré-Formatação",
+          "duration": "1:47"
+        },
+        {
+          "title": "Entidades HTML",
+          "duration": "5:59"
+        }
+      ]
+    },
+    {
+      "title": "Atributos",
+      "lectures": 3,
+      "duration": "10min",
+      "lessons": [
+        {
+          "title": "Introdução",
+          "duration": "2:47"
+        },
+        {
+          "title": "Principais Atributos",
+          "duration": "4:47"
+        },
+        {
+          "title": "Definindo a Linguagem da Página HTML",
+          "duration": "2:27"
+        }
+      ]
+    },
+    {
+      "title": "Formatação de Texto",
+      "lectures": 9,
+      "duration": "9min",
+      "lessons": [
+        {
+          "title": "Negrito",
+          "duration": "1:36"
+        },
+        {
+          "title": "Itálico",
+          "duration": "0:49"
+        },
+        {
+          "title": "Sublinhado",
+          "duration": "1:01"
+        },
+        {
+          "title": "Tachado",
+          "duration": "0:34"
+        },
+        {
+          "title": "Subscrito e Superescrito",
+          "duration": "0:57"
+        },
+        {
+          "title": "Texto menor e Texto maior",
+          "duration": "0:50"
+        },
+        {
+          "title": "Destacado, Removido e Inserido",
+          "duration": "1:12"
+        },
+        {
+          "title": "Citação",
+          "duration": "0:54"
+        },
+        {
+          "title": "Código-fonte",
+          "duration": "1:26"
+        }
+      ]
+    },
+    {
+      "title": "Imagens",
+      "lectures": 3,
+      "duration": "8min",
+      "lessons": [
+        {
+          "title": "Adicionando Imagens",
+          "duration": "3:00"
+        },
+        {
+          "title": "Tamanho da Imagem",
+          "duration": "3:36"
+        },
+        {
+          "title": "Imagem Local e Remota",
+          "duration": "1:47"
+        }
+      ]
+    },
+    {
+      "title": "Tabelas",
+      "lectures": 4,
+      "duration": "12min",
+      "lessons": [
+        {
+          "title": "Criando Tabelas",
+          "duration": "3:42"
+        },
+        {
+          "title": "Expandindo Colunas e Linhas",
+          "duration": "4:21"
+        },
+        {
+          "title": "Legenda",
+          "duration": "1:02"
+        },
+        {
+          "title": "Cabeçalho, Corpo e Rodapé",
+          "duration": "2:40"
+        }
+      ]
+    },
+    {
+      "title": "Listas",
+      "lectures": 3,
+      "duration": "8min",
+      "lessons": [
+        {
+          "title": "Não Ordenadas",
+          "duration": "2:55"
+        },
+        {
+          "title": "Ordenadas",
+          "duration": "3:11"
+        },
+        {
+          "title": "Listas do Tipo Definição",
+          "duration": "1:37"
+        }
+      ]
+    },
+    {
+      "title": "Links",
+      "lectures": 3,
+      "duration": "10min",
+      "lessons": [
+        {
+          "title": "Criando Hyperlinks",
+          "duration": "5:35"
+        },
+        {
+          "title": "Links com Imagens",
+          "duration": "2:21"
+        },
+        {
+          "title": "Bookmarks",
+          "duration": "2:31"
+        }
+      ]
+    },
+    {
+      "title": "Blocks",
+      "lectures": 2,
+      "duration": "6min",
+      "lessons": [
+        {
+          "title": "Block-level (div)",
+          "duration": "3:44"
+        },
+        {
+          "title": "Inline (span)",
+          "duration": "2:29"
+        }
+      ]
+    },
+    {
+      "title": "Formulários",
+      "lectures": 20,
+      "duration": "1hr",
+      "lessons": [
+        {
+          "title": "Sintaxe",
+          "duration": "4:26"
+        },
+        {
+          "title": "Atributos",
+          "duration": "5:34"
+        },
+        {
+          "title": "Select Box",
+          "duration": "3:42"
+        },
+        {
+          "title": "Textarea",
+          "duration": "2:03"
+        },
+        {
+          "title": "Fieldset",
+          "duration": "2:53"
+        },
+        {
+          "title": "Datalist",
+          "duration": "2:05"
+        },
+        {
+          "title": "Password",
+          "duration": "1:26"
+        },
+        {
+          "title": "Botões Submit e Reset",
+          "duration": "1:45"
+        },
+        {
+          "title": "Radio Buttons",
+          "duration": "3:44"
+        },
+        {
+          "title": "Checkboxes",
+          "duration": "2:34"
+        },
+        {
+          "title": "Color",
+          "duration": "1:51"
+        },
+        {
+          "title": "Date",
+          "duration": "2:14"
+        },
+        {
+          "title": "Email",
+          "duration": "3:07"
+        },
+        {
+          "title": "Image",
+          "duration": "2:25"
+        },
+        {
+          "title": "File",
+          "duration": "1:10"
+        },
+        {
+          "title": "Hidden",
+          "duration": "1:48"
+        },
+        {
+          "title": "Month e Date",
+          "duration": "2:29"
+        },
+        {
+          "title": "Number e Range",
+          "duration": "3:01"
+        },
+        {
+          "title": "Telephone",
+          "duration": "2:09"
+        },
+        {
+          "title": "Atributos do input",
+          "duration": "9:48"
+        }
+      ]
+    },
+    {
+      "title": "HTML Semântico",
+      "lectures": 9,
+      "duration": "16min",
+      "lessons": [
+        {
+          "title": "Introdução",
+          "duration": "3:21"
+        },
+        {
+          "title": "Section",
+          "duration": "1:52"
+        },
+        {
+          "title": "Article",
+          "duration": "2:18"
+        },
+        {
+          "title": "Header",
+          "duration": "1:15"
+        },
+        {
+          "title": "Footer",
+          "duration": "1:17"
+        },
+        {
+          "title": "Nav",
+          "duration": "1:06"
+        },
+        {
+          "title": "Main",
+          "duration": "1:28"
+        },
+        {
+          "title": "Details",
+          "duration": "1:19"
+        },
+        {
+          "title": "Aside",
+          "duration": "1:34"
+        }
+      ]
+    },
+    {
+      "title": "Projeto 01: Portifólio HTML Puro",
+      "lectures": 8,
+      "duration": "24min",
+      "lessons": [
+        {
+          "title": "Apresentação do Projeto",
+          "duration": "2:14"
+        },
+        {
+          "title": "Seção \"Header\"",
+          "duration": "4:20"
+        },
+        {
+          "title": "Seção \"Home\"",
+          "duration": "3:43"
+        },
+        {
+          "title": "Seção \"Services\"",
+          "duration": "5:06"
+        },
+        {
+          "title": "Seção \"Skills\"",
+          "duration": "2:51"
+        },
+        {
+          "title": "Seção \"Projects\"",
+          "duration": "0:25"
+        },
+        {
+          "title": "Seção \"Contact Me\"",
+          "duration": "4:48"
+        },
+        {
+          "title": "Seção \"Footer\"",
+          "duration": "0:22"
+        }
+      ]
+    },
+    {
+      "title": "Introdução ao CSS",
+      "lectures": 10,
+      "duration": "32min",
+      "lessons": [
+        {
+          "title": "O que é CSS?",
+          "duration": "1:52"
+        },
+        {
+          "title": "O Poder do CSS",
+          "duration": "3:24"
+        },
+        {
+          "title": "Por que usar CSS?",
+          "duration": "5:31"
+        },
+        {
+          "title": "Seletores - Introdução",
+          "duration": "0:56"
+        },
+        {
+          "title": "Seletores - id",
+          "duration": "2:26"
+        },
+        {
+          "title": "Seletores - class",
+          "duration": "5:25"
+        },
+        {
+          "title": "Seletores - universal",
+          "duration": "0:55"
+        },
+        {
+          "title": "Seletores - agrupamento",
+          "duration": "2:10"
+        },
+        {
+          "title": "Cascading Order",
+          "duration": "7:06"
+        },
+        {
+          "title": "Comentários",
+          "duration": "1:48"
+        }
+      ]
+    },
+    {
+      "title": "Cores",
+      "lectures": 3,
+      "duration": "10min",
+      "lessons": [
+        {
+          "title": "Nomes de cores padrão",
+          "duration": "3:35"
+        },
+        {
+          "title": "Cores RGB",
+          "duration": "4:40"
+        },
+        {
+          "title": "Cores HEX",
+          "duration": "1:30"
+        }
+      ]
+    },
+    {
+      "title": "Background",
+      "lectures": 2,
+      "duration": "12min",
+      "lessons": [
+        {
+          "title": "Cores de fundo",
+          "duration": "5:29"
+        },
+        {
+          "title": "Images de fundo",
+          "duration": "6:21"
+        }
+      ]
+    },
+    {
+      "title": "Bordas",
+      "lectures": 5,
+      "duration": "13min",
+      "lessons": [
+        {
+          "title": "Estilos",
+          "duration": "1:42"
+        },
+        {
+          "title": "Largura",
+          "duration": "4:13"
+        },
+        {
+          "title": "Cores",
+          "duration": "1:54"
+        },
+        {
+          "title": "Lados",
+          "duration": "4:04"
+        },
+        {
+          "title": "Arredondadas",
+          "duration": "1:06"
+        }
+      ]
+    },
+    {
+      "title": "Margens",
+      "lectures": 3,
+      "duration": "6min",
+      "lessons": [
+        {
+          "title": "Introdução",
+          "duration": "3:57"
+        },
+        {
+          "title": "Automáticas",
+          "duration": "0:53"
+        },
+        {
+          "title": "Herdadas",
+          "duration": "1:02"
+        }
+      ]
+    },
+    {
+      "title": "Padding",
+      "lectures": 2,
+      "duration": "6min",
+      "lessons": [
+        {
+          "title": "Especificando padding para um elemento HTML",
+          "duration": "2:58"
+        },
+        {
+          "title": "Padding e o tamanho do elemento HTML",
+          "duration": "2:39"
+        }
+      ]
+    },
+    {
+      "title": "Box Model",
+      "lectures": 3,
+      "duration": "11min",
+      "lessons": [
+        {
+          "title": "Como funciona o Box Model do CSS",
+          "duration": "3:41"
+        },
+        {
+          "title": "Largura e Altura dos Elementos",
+          "duration": "3:33"
+        },
+        {
+          "title": "Propriedade box-sizing",
+          "duration": "3:49"
+        }
+      ]
+    },
+    {
+      "title": "Textos",
+      "lectures": 5,
+      "duration": "24min",
+      "lessons": [
+        {
+          "title": "Cor do texto e fundo",
+          "duration": "3:05"
+        },
+        {
+          "title": "Alinhamento",
+          "duration": "5:18"
+        },
+        {
+          "title": "Decoração",
+          "duration": "6:42"
+        },
+        {
+          "title": "Transformação",
+          "duration": "2:02"
+        },
+        {
+          "title": "Espaçamento",
+          "duration": "6:51"
+        }
+      ]
+    },
+    {
+      "title": "Fontes",
+      "lectures": 3,
+      "duration": "12min",
+      "lessons": [
+        {
+          "title": "Famílias de Fontes",
+          "duration": "5:02"
+        },
+        {
+          "title": "Tamanho",
+          "duration": "4:38"
+        },
+        {
+          "title": "Estilo",
+          "duration": "2:29"
+        }
+      ]
+    },
+    {
+      "title": "Posicionando Elementos",
+      "lectures": 2,
+      "duration": "41min",
+      "lessons": [
+        {
+          "title": "Flexbox",
+          "duration": "16:55"
+        },
+        {
+          "title": "Grid",
+          "duration": "24:33"
+        }
+      ]
+    },
+    {
+      "title": "Introdução ao Javascript",
+      "lectures": 4,
+      "duration": "20min",
+      "lessons": [
+        {
+          "title": "O que é Javascript",
+          "duration": "5:10"
+        },
+        {
+          "title": "Instando o Visual Studio Code",
+          "duration": "2:43"
+        },
+        {
+          "title": "Validando a Instalação",
+          "duration": "3:28"
+        },
+        {
+          "title": "Como incluir Javascript no HTML",
+          "duration": "8:46"
+        }
+      ]
+    },
+    {
+      "title": "Fundamentos do Javascript",
+      "lectures": 9,
+      "duration": "44min",
+      "lessons": [
+        {
+          "title": "Sintaxe",
+          "duration": "9:21"
+        },
+        {
+          "title": "Variaveis",
+          "duration": "7:23"
+        },
+        {
+          "title": "null vs undefined",
+          "duration": "4:12"
+        },
+        {
+          "title": "Tipo de Dados: number",
+          "duration": "2:38"
+        },
+        {
+          "title": "Tipo de Dados: string",
+          "duration": "3:12"
+        },
+        {
+          "title": "Tipo de Dados: boolean",
+          "duration": "2:44"
+        },
+        {
+          "title": "Tipo de Dados: bigint e symbol",
+          "duration": "1:13"
+        },
+        {
+          "title": "Tipo de Dados: object",
+          "duration": "3:30"
+        },
+        {
+          "title": "Array",
+          "duration": "10:10"
+        }
+      ]
+    },
+    {
+      "title": "Operadores",
+      "lectures": 9,
+      "duration": "34min",
+      "lessons": [
+        {
+          "title": "Operadores Aritméticos",
+          "duration": "6:17"
+        },
+        {
+          "title": "Combinando Operadores Aritméticos",
+          "duration": "2:30"
+        },
+        {
+          "title": "Precedência dos Operadores Aritméticos",
+          "duration": "2:31"
+        },
+        {
+          "title": "Operadores Lógicos: AND, OR e NOT",
+          "duration": "6:57"
+        },
+        {
+          "title": "Combinando Operadores Lógicos",
+          "duration": "2:24"
+        },
+        {
+          "title": "Precedência de Operadores Lógicos",
+          "duration": "2:03"
+        },
+        {
+          "title": "Exercícios",
+          "duration": "0:40"
+        },
+        {
+          "title": "Operadores de Comparação",
+          "duration": "9:18"
+        },
+        {
+          "title": "Precedência dos Operadores de Comparação",
+          "duration": "1:41"
+        }
+      ]
+    },
+    {
+      "title": "Instruções de Controle",
+      "lectures": 10,
+      "duration": "1hr 1min",
+      "lessons": [
+        {
+          "title": "Comando \"if\"",
+          "duration": "4:42"
+        },
+        {
+          "title": "Comando \"if-else\"",
+          "duration": "3:54"
+        },
+        {
+          "title": "Comando \"if-else-if\"",
+          "duration": "7:38"
+        },
+        {
+          "title": "Operador Ternário",
+          "duration": "4:19"
+        },
+        {
+          "title": "Comando \"switch\"",
+          "duration": "9:21"
+        },
+        {
+          "title": "Comando \"while\"",
+          "duration": "4:13"
+        },
+        {
+          "title": "Comando \"do-while\"",
+          "duration": "8:51"
+        },
+        {
+          "title": "Comando \"for\"",
+          "duration": "7:39"
+        },
+        {
+          "title": "Comando \"break\"",
+          "duration": "6:01"
+        },
+        {
+          "title": "Comando \"continue\"",
+          "duration": "4:30"
+        }
+      ]
+    },
+    {
+      "title": "Funções",
+      "lectures": 8,
+      "duration": "49min",
+      "lessons": [
+        {
+          "title": "Introdução",
+          "duration": "8:48"
+        },
+        {
+          "title": "Funções \"cidadãs de primeira classe\"",
+          "duration": "8:20"
+        },
+        {
+          "title": "Exercício",
+          "duration": "1:32"
+        },
+        {
+          "title": "Funções Anônimas",
+          "duration": "7:26"
+        },
+        {
+          "title": "Funções Flecha",
+          "duration": "6:13"
+        },
+        {
+          "title": "Passagem de Parâmetro",
+          "duration": "6:19"
+        },
+        {
+          "title": "Parâmetros Padrão",
+          "duration": "5:33"
+        },
+        {
+          "title": "Recursão",
+          "duration": "4:38"
+        }
+      ]
+    },
+    {
+      "title": "Objetos",
+      "lectures": 10,
+      "duration": "34min",
+      "lessons": [
+        {
+          "title": "O que são Objetos?",
+          "duration": "1:42"
+        },
+        {
+          "title": "Estrutura de um Objeto",
+          "duration": "4:19"
+        },
+        {
+          "title": "Alterando Valores e Excluindo Propriedades",
+          "duration": "2:00"
+        },
+        {
+          "title": "Métodos",
+          "duration": "3:10"
+        },
+        {
+          "title": "Exemplo - Um Objeto Carro",
+          "duration": "2:43"
+        },
+        {
+          "title": "Desafio - Calculadora",
+          "duration": "3:50"
+        },
+        {
+          "title": "Métodos Abreviados e Propriedades Calculadas",
+          "duration": "3:54"
+        },
+        {
+          "title": "Herança Prototípica",
+          "duration": "3:43"
+        },
+        {
+          "title": "Criando Cadeias de Objetos",
+          "duration": "4:12"
+        },
+        {
+          "title": "Criando Objetos - Operador new e object.create()",
+          "duration": "4:43"
+        }
+      ]
+    },
+    {
+      "title": "Classes",
+      "lectures": 12,
+      "duration": "1hr 18min",
+      "lessons": [
+        {
+          "title": "O que são Classes?",
+          "duration": "6:04"
+        },
+        {
+          "title": "Getters e Setters",
+          "duration": "6:22"
+        },
+        {
+          "title": "Getter e Setters como Propriedades",
+          "duration": "2:29"
+        },
+        {
+          "title": "Comparando Getters e Setters com Métodos",
+          "duration": "3:41"
+        },
+        {
+          "title": "Expressões de Classe",
+          "duration": "8:31"
+        },
+        {
+          "title": "Propriedades Computadas",
+          "duration": "4:42"
+        },
+        {
+          "title": "Herança",
+          "duration": "7:40"
+        },
+        {
+          "title": "Entendendo o new.target",
+          "duration": "5:33"
+        },
+        {
+          "title": "Métodos Estáticos",
+          "duration": "10:17"
+        },
+        {
+          "title": "Propriedades Estáticas",
+          "duration": "6:48"
+        },
+        {
+          "title": "Campos Privados",
+          "duration": "8:08"
+        },
+        {
+          "title": "Métodos Privados",
+          "duration": "7:30"
+        }
+      ]
+    },
+    {
+      "title": "Maps e Sets",
+      "lectures": 3,
+      "duration": "23min",
+      "lessons": [
+        {
+          "title": "Trabalhando com Map",
+          "duration": "9:24"
+        },
+        {
+          "title": "Map - Exemplo Prático",
+          "duration": "3:21"
+        },
+        {
+          "title": "Trabalhando com Set",
+          "duration": "9:48"
+        }
+      ]
+    },
+    {
+      "title": "Tratamento de Exceção",
+      "lectures": 3,
+      "duration": "17min",
+      "lessons": [
+        {
+          "title": "try/catch",
+          "duration": "5:59"
+        },
+        {
+          "title": "try/catch/finally",
+          "duration": "4:12"
+        },
+        {
+          "title": "throw",
+          "duration": "6:39"
+        }
+      ]
+    },
+    {
+      "title": "Manipulando o DOM",
+      "lectures": 11,
+      "duration": "1hr 6min",
+      "lessons": [
+        {
+          "title": "O que é o DOM?",
+          "duration": "2:45"
+        },
+        {
+          "title": "Selecionando Elementos",
+          "duration": "11:28"
+        },
+        {
+          "title": "Encontrando o Elemento Pai",
+          "duration": "2:35"
+        },
+        {
+          "title": "Elementos filhos e irmãos",
+          "duration": "8:30"
+        },
+        {
+          "title": "Prática: Recuperando todos os irmãos de um elemento",
+          "duration": "4:12"
+        },
+        {
+          "title": "Criando Elementos",
+          "duration": "7:57"
+        },
+        {
+          "title": "Anexando Elementos",
+          "duration": "5:43"
+        },
+        {
+          "title": "Inserindo Texto nos Elementos",
+          "duration": "3:39"
+        },
+        {
+          "title": "Inserindo HTML nos Elementos",
+          "duration": "5:54"
+        },
+        {
+          "title": "createElement() vs innerHTML",
+          "duration": "6:26"
+        },
+        {
+          "title": "Eventos",
+          "duration": "6:35"
+        }
+      ]
+    },
+    {
+      "title": "Projeto",
+      "lectures": 2,
+      "duration": "36min",
+      "lessons": [
+        {
+          "title": "Sobre o Jogo da Forca",
+          "duration": "0:13"
+        },
+        {
+          "title": "Jogo da Forca",
+          "duration": "35:32"
+        }
+      ]
+    }
+  ],
+  "instructor": {
+    "name": "Luiz Fernando Estivalet",
+    "title": "Senior Automation Engineer",
+    "bio": "Complete Bachelor and Master degrees in Computer Science. English fluency. Information Technology professional with over 20 years of experience, working at major industrial companies such as Dell, Accenture and Serpro. Out of them, 5 years working on distributed teams across the globe. Strong technical and analytical problem solving coupled with ability to negotiate, manage systems and programs. Experienced in architecture and design of web systems, requirements gathering, and team leading. Specialties: Python, Selenium Web application testing system, Robot Framework",
+    "avatar": "assets/img/me2.png",
+    "rating": 4.7,
+    "students": "1400+",
+    "courses": 10
+  },
+  "reviews": []
+}

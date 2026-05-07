@@ -1,0 +1,775 @@
+{
+  "id": "python-do-zero-a-automacao",
+  "title": "Python do Zero à Automação",
+  "subtitle": "Aprenda Python do básico ao avançado com foco em automação de tarefas, web scraping, Selenium, manipulação de arquivos e muito mais.",
+  "image": "assets/img/python-zero-automacao.webp",
+  "videoUrl": "https://www.youtube.com/embed/sKolLlic6o0",
+  "rating": 4.6,
+  "ratingCount": "1.243",
+  "students": "8.500+",
+  "lastUpdated": "Março 2024",
+  "language": "Português",
+  "level": "Iniciante ao Avançado",
+  "totalLectures": 131,
+  "totalDuration": "11h 22min",
+  "udemyUrl": "https://www.udemy.com/course/python-do-zero-a-automacao/?couponCode=FS260504G1",
+  "technologies": [
+    "Python",
+    "Selenium",
+    "pyautogui"
+  ],
+  "includes": [
+    {
+      "icon": "fas fa-video",
+      "text": "11 horas e 22 minutos de vídeo sob demanda"
+    },
+    {
+      "icon": "fas fa-list",
+      "text": "131 aulas em 17 seções"
+    },
+    {
+      "icon": "fas fa-infinity",
+      "text": "Acesso vitalício"
+    },
+    {
+      "icon": "fas fa-mobile-alt",
+      "text": "Acesso no mobile e TV"
+    },
+    {
+      "icon": "fas fa-certificate",
+      "text": "Certificado de conclusão"
+    }
+  ],
+  "whatYouLearn": [
+    "Fundamentos de Python: variáveis, tipos de dados, operadores",
+    "Estruturas de controle: if/elif/else, while, for",
+    "Funções, parâmetros, escopo e tratamento de exceções",
+    "Listas, tuplas, dicionários e list comprehension",
+    "Strings e expressões regulares (Regex)",
+    "Manipulação de arquivos txt, Excel, PDF e Word",
+    "Web scraping com Requests e BeautifulSoup",
+    "Automação de browsers com Selenium WebDriver",
+    "Automação de GUI desktop com PyAutoGUI",
+    "Projetos práticos de automação do início ao fim"
+  ],
+  "requirements": [
+    "Nenhum conhecimento prévio de programação é necessário",
+    "Computador com Windows, macOS ou Linux",
+    "Vontade de aprender e praticar"
+  ],
+  "description": "Este curso foi desenvolvido para quem quer aprender Python do zero e se tornar capaz de automatizar tarefas do dia a dia de forma prática e eficiente.\n\nVocê começa pelo básico: instalação do Python, primeiro código, variáveis, tipos de dados e operadores. Em seguida avança para estruturas de controle, funções, tratamento de exceções e coleções de dados.\n\nNa parte intermediária você aprenderá a trabalhar com strings avançadas, expressões regulares e manipulação de arquivos (txt, Excel, PDF e Word) — habilidades essenciais para qualquer automação real.\n\nNa parte de automação você aprenderá web scraping com BeautifulSoup, automação de navegadores com Selenium e controle total do mouse e teclado com PyAutoGUI.\n\nAo final do curso você será capaz de criar scripts reais que economizam horas de trabalho manual.",
+  "sections": [
+    {
+      "title": "Preparação do Ambiente",
+      "lectures": 3,
+      "duration": "5min",
+      "lessons": [
+        {
+          "title": "Windows",
+          "duration": "4:20"
+        },
+        {
+          "title": "Linux",
+          "duration": "0:31"
+        },
+        {
+          "title": "Mac",
+          "duration": "0:21"
+        }
+      ]
+    },
+    {
+      "title": "Introdução ao Python",
+      "lectures": 3,
+      "duration": "22min",
+      "lessons": [
+        {
+          "title": "Primeiros Passos",
+          "duration": "6:40"
+        },
+        {
+          "title": "Sintaxe",
+          "duration": "7:12"
+        },
+        {
+          "title": "Executando Expressões",
+          "duration": "8:33"
+        }
+      ]
+    },
+    {
+      "title": "Variáveis",
+      "lectures": 2,
+      "duration": "21min",
+      "lessons": [
+        {
+          "title": "O que é uma variável?",
+          "duration": "5:17"
+        },
+        {
+          "title": "Primeiro Script",
+          "duration": "15:27"
+        }
+      ]
+    },
+    {
+      "title": "Estruturas de Controle",
+      "lectures": 13,
+      "duration": "58min",
+      "lessons": [
+        {
+          "title": "O que são estruturas de controle?",
+          "duration": "1:58"
+        },
+        {
+          "title": "Valores Booleanos",
+          "duration": "2:24"
+        },
+        {
+          "title": "Operadores de Comparação",
+          "duration": "5:19"
+        },
+        {
+          "title": "Operadores Booleanos",
+          "duration": "3:17"
+        },
+        {
+          "title": "Misturando Operadores de Comparação e Booleanos",
+          "duration": "6:24"
+        },
+        {
+          "title": "Comando IF",
+          "duration": "3:25"
+        },
+        {
+          "title": "Comando ELSE",
+          "duration": "1:59"
+        },
+        {
+          "title": "Comando ELIF",
+          "duration": "4:07"
+        },
+        {
+          "title": "Comando WHILE",
+          "duration": "3:12"
+        },
+        {
+          "title": "Comandos BREAK e CONTINUE",
+          "duration": "5:56"
+        },
+        {
+          "title": "Comando FOR",
+          "duration": "5:36"
+        },
+        {
+          "title": "Importando Módulos",
+          "duration": "7:53"
+        },
+        {
+          "title": "Praticando: Adivinhe o Número",
+          "duration": "6:07"
+        }
+      ]
+    },
+    {
+      "title": "Funções",
+      "lectures": 5,
+      "duration": "23min",
+      "lessons": [
+        {
+          "title": "Introdução",
+          "duration": "3:13"
+        },
+        {
+          "title": "Parâmetros",
+          "duration": "2:45"
+        },
+        {
+          "title": "Retornando valores",
+          "duration": "8:18"
+        },
+        {
+          "title": "Parâmetros nomeados",
+          "duration": "3:08"
+        },
+        {
+          "title": "Escopo",
+          "duration": "5:08"
+        }
+      ]
+    },
+    {
+      "title": "Tratamento de Exceção",
+      "lectures": 4,
+      "duration": "15min",
+      "lessons": [
+        {
+          "title": "Bloco try/except",
+          "duration": "4:26"
+        },
+        {
+          "title": "Múltiplas Exceções",
+          "duration": "4:59"
+        },
+        {
+          "title": "Lançando Exceções",
+          "duration": "3:20"
+        },
+        {
+          "title": "Assert",
+          "duration": "2:14"
+        }
+      ]
+    },
+    {
+      "title": "Listas e Tuplas",
+      "lectures": 14,
+      "duration": "1h 8min",
+      "lessons": [
+        {
+          "title": "Acessando Elementos",
+          "duration": "11:29"
+        },
+        {
+          "title": "Determinar tamanho da lista",
+          "duration": "1:24"
+        },
+        {
+          "title": "Alterando valores",
+          "duration": "2:27"
+        },
+        {
+          "title": "Concatenando e multiplicando elementos",
+          "duration": "3:10"
+        },
+        {
+          "title": "Excluindo elementos",
+          "duration": "0:57"
+        },
+        {
+          "title": "Verificando existência dos elementos",
+          "duration": "1:20"
+        },
+        {
+          "title": "Valores mínimos, máximos e somatório",
+          "duration": "1:20"
+        },
+        {
+          "title": "Métodos das listas",
+          "duration": "9:02"
+        },
+        {
+          "title": "Trabalhando com listas",
+          "duration": "7:53"
+        },
+        {
+          "title": "Usando FOR com listas",
+          "duration": "5:28"
+        },
+        {
+          "title": "Métodos do módulo random e listas",
+          "duration": "2:29"
+        },
+        {
+          "title": "Operador de múltipla atribuição",
+          "duration": "2:41"
+        },
+        {
+          "title": "List comprehension",
+          "duration": "14:25"
+        },
+        {
+          "title": "Tuplas",
+          "duration": "4:15"
+        }
+      ]
+    },
+    {
+      "title": "Dicionários",
+      "lectures": 9,
+      "duration": "26min",
+      "lessons": [
+        {
+          "title": "Introdução",
+          "duration": "2:39"
+        },
+        {
+          "title": "Acessando elementos",
+          "duration": "2:27"
+        },
+        {
+          "title": "Métodos keys(), values() e items()",
+          "duration": "3:58"
+        },
+        {
+          "title": "Verificando existência de chaves e valores",
+          "duration": "2:16"
+        },
+        {
+          "title": "Adicionando e atualizando chaves e valores",
+          "duration": "3:01"
+        },
+        {
+          "title": "Excluindo elementos",
+          "duration": "3:16"
+        },
+        {
+          "title": "Copiando dicionários",
+          "duration": "1:48"
+        },
+        {
+          "title": "Definindo valores padrão",
+          "duration": "4:43"
+        },
+        {
+          "title": "Unindo dicionários",
+          "duration": "1:58"
+        }
+      ]
+    },
+    {
+      "title": "Strings",
+      "lectures": 8,
+      "duration": "59min",
+      "lessons": [
+        {
+          "title": "Caracteres de escape",
+          "duration": "6:36"
+        },
+        {
+          "title": "Raw strings",
+          "duration": "2:26"
+        },
+        {
+          "title": "String multi-linhas",
+          "duration": "2:36"
+        },
+        {
+          "title": "Indexando strings",
+          "duration": "3:16"
+        },
+        {
+          "title": "Operadores \"in\" e \"not in\"",
+          "duration": "1:29"
+        },
+        {
+          "title": "Interpolação de strings",
+          "duration": "4:41"
+        },
+        {
+          "title": "Métodos úteis das strings - parte 1",
+          "duration": "18:16"
+        },
+        {
+          "title": "Métodos úteis das strings - parte 2",
+          "duration": "19:41"
+        }
+      ]
+    },
+    {
+      "title": "Expressões Regulares",
+      "lectures": 15,
+      "duration": "1h 10min",
+      "lessons": [
+        {
+          "title": "Encontrando padrões sem expressões regulares",
+          "duration": "8:26"
+        },
+        {
+          "title": "Encontrando padrões com expressões regulares",
+          "duration": "7:55"
+        },
+        {
+          "title": "Grupos",
+          "duration": "6:47"
+        },
+        {
+          "title": "Zero ou uma ocorrência",
+          "duration": "2:05"
+        },
+        {
+          "title": "Zero ou mais ocorrências",
+          "duration": "2:52"
+        },
+        {
+          "title": "Uma ou mais ocorrências",
+          "duration": "1:43"
+        },
+        {
+          "title": "Múltiplos grupos",
+          "duration": "4:49"
+        },
+        {
+          "title": "Ocorrências específicas",
+          "duration": "5:43"
+        },
+        {
+          "title": "Múltiplas ocorrências",
+          "duration": "3:06"
+        },
+        {
+          "title": "Classes de caracteres",
+          "duration": "6:25"
+        },
+        {
+          "title": "Criando nossas classes de caracteres",
+          "duration": "4:46"
+        },
+        {
+          "title": "Padrões de início e fim",
+          "duration": "3:37"
+        },
+        {
+          "title": "Caracteres ponto (.) e asterisco (*)",
+          "duration": "6:05"
+        },
+        {
+          "title": "Ignorando caracteres maiúsculos e minúsculos",
+          "duration": "2:13"
+        },
+        {
+          "title": "Resumo das expressões regulares",
+          "duration": "3:26"
+        }
+      ]
+    },
+    {
+      "title": "Trabalhando com Arquivos",
+      "lectures": 10,
+      "duration": "1h 8min",
+      "lessons": [
+        {
+          "title": "Introdução",
+          "duration": "2:53"
+        },
+        {
+          "title": "Função Path",
+          "duration": "8:52"
+        },
+        {
+          "title": "Caminhos absolutos e relativos",
+          "duration": "7:51"
+        },
+        {
+          "title": "Extraindo partes do arquivo",
+          "duration": "6:54"
+        },
+        {
+          "title": "Criando pastas",
+          "duration": "3:37"
+        },
+        {
+          "title": "Listando arquivos",
+          "duration": "7:45"
+        },
+        {
+          "title": "Validação de caminhos",
+          "duration": "2:16"
+        },
+        {
+          "title": "Lendo arquivos texto",
+          "duration": "7:58"
+        },
+        {
+          "title": "Escrevendo arquivos texto",
+          "duration": "5:22"
+        },
+        {
+          "title": "Projeto: Gerador de provas com questões em ordem aleatória",
+          "duration": "14:14"
+        }
+      ]
+    },
+    {
+      "title": "Planilhas Excel",
+      "lectures": 5,
+      "duration": "45min",
+      "lessons": [
+        {
+          "title": "Lendo planilhas Excel",
+          "duration": "19:25"
+        },
+        {
+          "title": "Convertendo planilhas Excel para JSON",
+          "duration": "8:40"
+        },
+        {
+          "title": "Criando planilhas Excel",
+          "duration": "6:08"
+        },
+        {
+          "title": "Escrevendo dados nas células da planilha",
+          "duration": "7:07"
+        },
+        {
+          "title": "Inserindo e excluindo colunas das planilhas",
+          "duration": "3:37"
+        }
+      ]
+    },
+    {
+      "title": "Arquivos PDF",
+      "lectures": 7,
+      "duration": "29min",
+      "lessons": [
+        {
+          "title": "Introdução",
+          "duration": "0:56"
+        },
+        {
+          "title": "Atualização do PyPDF2 3.0.0 (leia antes)",
+          "duration": "0:45"
+        },
+        {
+          "title": "Extrair texto de arquivos PDF",
+          "duration": "5:43"
+        },
+        {
+          "title": "Rotacionar arquivos PDF",
+          "duration": "6:17"
+        },
+        {
+          "title": "Combinar arquivos PDF",
+          "duration": "3:28"
+        },
+        {
+          "title": "Adicionar marca d'água em arquivos PDF",
+          "duration": "5:12"
+        },
+        {
+          "title": "Proteger arquivos PDF com senha",
+          "duration": "6:29"
+        }
+      ]
+    },
+    {
+      "title": "Documentos Word",
+      "lectures": 6,
+      "duration": "25min",
+      "lessons": [
+        {
+          "title": "Introdução aos arquivos docx",
+          "duration": "1:58"
+        },
+        {
+          "title": "Lendo documentos",
+          "duration": "6:39"
+        },
+        {
+          "title": "Mudar estilo do texto",
+          "duration": "2:25"
+        },
+        {
+          "title": "Criando arquivos docx",
+          "duration": "6:58"
+        },
+        {
+          "title": "Adicionar imagens aos documentos",
+          "duration": "2:29"
+        },
+        {
+          "title": "Criando tabelas",
+          "duration": "4:33"
+        }
+      ]
+    },
+    {
+      "title": "Automação Desktop",
+      "lectures": 12,
+      "duration": "1h 5min",
+      "lessons": [
+        {
+          "title": "Introdução",
+          "duration": "1:34"
+        },
+        {
+          "title": "Instalação do pyautogui",
+          "duration": "1:14"
+        },
+        {
+          "title": "Movimentando o mouse",
+          "duration": "4:50"
+        },
+        {
+          "title": "Criando desenhos de forma automática",
+          "duration": "6:27"
+        },
+        {
+          "title": "Scroll do mouse",
+          "duration": "1:43"
+        },
+        {
+          "title": "Controlando o teclado",
+          "duration": "11:49"
+        },
+        {
+          "title": "Controlando janelas",
+          "duration": "6:07"
+        },
+        {
+          "title": "Mensagens para o usuário",
+          "duration": "3:02"
+        },
+        {
+          "title": "Screenshot de telas",
+          "duration": "3:30"
+        },
+        {
+          "title": "Automatizando o preenchimento de formulários",
+          "duration": "10:17"
+        },
+        {
+          "title": "Localizando imagens - calculadora",
+          "duration": "8:05"
+        },
+        {
+          "title": "Localizando imagens - email",
+          "duration": "6:23"
+        }
+      ]
+    },
+    {
+      "title": "Web Scraping",
+      "lectures": 9,
+      "duration": "54min",
+      "lessons": [
+        {
+          "title": "Introdução ao scraping",
+          "duration": "2:43"
+        },
+        {
+          "title": "Páginas web",
+          "duration": "5:03"
+        },
+        {
+          "title": "Biblioteca requests",
+          "duration": "3:59"
+        },
+        {
+          "title": "Biblioteca BeautifulSoup",
+          "duration": "9:15"
+        },
+        {
+          "title": "Biblioteca BeautifulSoup - parte 2",
+          "duration": "2:10"
+        },
+        {
+          "title": "Localizar elementos por \"id\" e \"class\"",
+          "duration": "4:40"
+        },
+        {
+          "title": "Localizar elementos com seletores CSS",
+          "duration": "3:11"
+        },
+        {
+          "title": "IMPORTANTE: bookdepository.com (aviso)",
+          "duration": "0:21"
+        },
+        {
+          "title": "Scraping de dados de uma livraria",
+          "duration": "22:33"
+        }
+      ]
+    },
+    {
+      "title": "Automação Web",
+      "lectures": 16,
+      "duration": "1h 53min",
+      "lessons": [
+        {
+          "title": "Introdução Selenium",
+          "duration": "1:39"
+        },
+        {
+          "title": "Instalação do Webdriver",
+          "duration": "5:26"
+        },
+        {
+          "title": "Automatizando pesquisa do Google",
+          "duration": "9:30"
+        },
+        {
+          "title": "Pesquisando elementos por ID, name e XPATH",
+          "duration": "11:40"
+        },
+        {
+          "title": "Encontrando elementos com links",
+          "duration": "3:04"
+        },
+        {
+          "title": "Encontrando tags",
+          "duration": "1:57"
+        },
+        {
+          "title": "Usando class name para encontrar elementos",
+          "duration": "2:05"
+        },
+        {
+          "title": "Usando css selectors para encontrar elementos",
+          "duration": "4:39"
+        },
+        {
+          "title": "Encontrando múltiplos elementos",
+          "duration": "9:11"
+        },
+        {
+          "title": "Trabalhando com caixas de seleção",
+          "duration": "8:00"
+        },
+        {
+          "title": "Aguardando elementos",
+          "duration": "7:27"
+        },
+        {
+          "title": "Exemplos para aguardar elementos",
+          "duration": "10:28"
+        },
+        {
+          "title": "Aguardar elemento estar visível",
+          "duration": "4:46"
+        },
+        {
+          "title": "Aguardar elemento criado dinamicamente",
+          "duration": "2:10"
+        },
+        {
+          "title": "Aguardar elemento ser clicável",
+          "duration": "3:48"
+        },
+        {
+          "title": "Prática: Google Tradutor",
+          "duration": "26:41"
+        }
+      ]
+    }
+  ],
+  "instructor": {
+    "name": "Luiz Fernando Estivalet",
+    "title": "Senior Automation Engineer",
+    "bio": "Complete Bachelor and Master degrees in Computer Science. English fluency. Information Technology professional with over 20 years of experience, working at major industrial companies such as Dell, Accenture and Serpro. Out of them, 5 years working on distributed teams across the globe. Strong technical and analytical problem solving coupled with ability to negotiate, manage systems and programs. Experienced in architecture and design of web systems, requirements gathering, and team leading. Specialties: Python, Selenium Web application testing system, Robot Framework",
+    "avatar": "assets/img/me2.png",
+    "rating": 4.7,
+    "students": "1400+",
+    "courses": 10
+  },
+  "reviews": [
+    {
+      "name": "Carlos Mendes",
+      "rating": 5,
+      "date": "Fevereiro 2024",
+      "text": "Excelente curso! Explicações muito claras e projetos práticos que realmente fazem diferença. Consegui automatizar várias tarefas no meu trabalho logo nas primeiras semanas."
+    },
+    {
+      "name": "Ana Paula Silva",
+      "rating": 5,
+      "date": "Janeiro 2024",
+      "text": "Comecei sem saber nada de Python e hoje já faço scripts de automação no meu dia a dia. O professor explica muito bem e o ritmo do curso é perfeito para iniciantes."
+    },
+    {
+      "name": "Roberto Costa",
+      "rating": 4,
+      "date": "Dezembro 2023",
+      "text": "Ótimo conteúdo, especialmente a parte de Selenium e web scraping. Poderia ter mais exercícios práticos, mas no geral é um curso muito completo e bem estruturado."
+    }
+  ]
+}

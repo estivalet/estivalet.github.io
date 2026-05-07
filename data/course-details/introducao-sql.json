@@ -1,0 +1,370 @@
+{
+  "id": "introducao-sql",
+  "title": "Introdução ao SQL",
+  "subtitle": "Domine consultas em banco de dados do zero ao Join",
+  "image": "assets/img/introducao-sql.webp",
+  "videoUrl": "",
+  "rating": 4.7,
+  "ratingCount": "1.200",
+  "students": "5.600+",
+  "lastUpdated": "Fevereiro 2024",
+  "language": "Português",
+  "level": "Iniciante",
+  "totalLectures": 54,
+  "totalDuration": "4h 26min",
+  "udemyUrl": "https://www.udemy.com/course/introducao-sql/",
+  "technologies": [
+    "SQL",
+    "PostgreSQL"
+  ],
+  "includes": [
+    {
+      "icon": "fas fa-video",
+      "text": "4,5 horas de vídeo sob demanda"
+    },
+    {
+      "icon": "fas fa-list",
+      "text": "54 aulas em 13 seções"
+    },
+    {
+      "icon": "fas fa-infinity",
+      "text": "Acesso vitalício"
+    },
+    {
+      "icon": "fas fa-certificate",
+      "text": "Certificado de conclusão"
+    }
+  ],
+  "whatYouLearn": [
+    "Conceitos de Banco de Dados Relacionais",
+    "Realizar consultas (SELECT, WHERE, ORDER BY)",
+    "Funções de agregação (COUNT, SUM, AVG)",
+    "Agrupamento de dados (GROUP BY, HAVING)",
+    "Relacionar tabelas com INNER, LEFT e RIGHT JOIN",
+    "Comandos DML (INSERT, UPDATE, DELETE)"
+  ],
+  "requirements": [
+    "Nenhum conhecimento prévio necessário",
+    "Computador com acesso à internet para rodar as queries"
+  ],
+  "description": "SQL é a linguagem essencial para trabalhar com dados. Neste curso focado e prático, você aprenderá a escrever queries para extrair e analisar dados de bancos de dados relacionais.\n\nFocaremos em PostgreSQL, mas os conceitos aplicam-se a MySQL, SQL Server, Oracle, etc. Aprenda desde o SELECT básico até os temidos JOINs de forma simples e visual.",
+  "sections": [
+    {
+      "title": "Introdução ao SQL",
+      "lectures": 5,
+      "duration": "24min",
+      "lessons": [
+        {
+          "title": "Introdução ao SQL",
+          "duration": "6:41"
+        },
+        {
+          "title": "Sintaxe do SQL",
+          "duration": "6:58"
+        },
+        {
+          "title": "Instalação do PostgreSQL",
+          "duration": "5:05"
+        },
+        {
+          "title": "Banco de Dados Utilizado no Curso",
+          "duration": "4:58"
+        },
+        {
+          "title": "pgAdmin em Modo Escuro",
+          "duration": "0:36"
+        }
+      ]
+    },
+    {
+      "title": "Selecionando Dados",
+      "lectures": 3,
+      "duration": "18min",
+      "lessons": [
+        {
+          "title": "Comando SELECT",
+          "duration": "5:44"
+        },
+        {
+          "title": "Cláusula ORDER BY",
+          "duration": "4:51"
+        },
+        {
+          "title": "Apelidos para Colunas (alias)",
+          "duration": "7:33"
+        }
+      ]
+    },
+    {
+      "title": "Filtrando Dados",
+      "lectures": 11,
+      "duration": "48min",
+      "lessons": [
+        {
+          "title": "DISTINCT",
+          "duration": "3:25"
+        },
+        {
+          "title": "LIMIT",
+          "duration": "2:59"
+        },
+        {
+          "title": "WHERE",
+          "duration": "5:46"
+        },
+        {
+          "title": "Operadores de Comparação",
+          "duration": "6:10"
+        },
+        {
+          "title": "Operadores Lógicos",
+          "duration": "4:40"
+        },
+        {
+          "title": "Operador AND",
+          "duration": "2:09"
+        },
+        {
+          "title": "Operador OR",
+          "duration": "5:21"
+        },
+        {
+          "title": "Operador IN",
+          "duration": "3:52"
+        },
+        {
+          "title": "Operador LIKE",
+          "duration": "5:56"
+        },
+        {
+          "title": "Operador IS NULL",
+          "duration": "2:37"
+        },
+        {
+          "title": "Operador NOT",
+          "duration": "4:39"
+        }
+      ]
+    },
+    {
+      "title": "Expressões Condicionais",
+      "lectures": 1,
+      "duration": "5min",
+      "lessons": [
+        {
+          "title": "Operador CASE",
+          "duration": "4:50"
+        }
+      ]
+    },
+    {
+      "title": "Juntando Múltiplas Tabelas",
+      "lectures": 5,
+      "duration": "29min",
+      "lessons": [
+        {
+          "title": "INNER JOIN",
+          "duration": "8:28"
+        },
+        {
+          "title": "LEFT JOIN",
+          "duration": "7:42"
+        },
+        {
+          "title": "SELF JOIN",
+          "duration": "4:30"
+        },
+        {
+          "title": "FULL OUTER JOIN",
+          "duration": "4:05"
+        },
+        {
+          "title": "CROSS JOIN",
+          "duration": "3:51"
+        }
+      ]
+    },
+    {
+      "title": "Funções de Agregação",
+      "lectures": 6,
+      "duration": "25min",
+      "lessons": [
+        {
+          "title": "Introdução",
+          "duration": "4:44"
+        },
+        {
+          "title": "AVG",
+          "duration": "5:42"
+        },
+        {
+          "title": "COUNT",
+          "duration": "6:19"
+        },
+        {
+          "title": "MAX",
+          "duration": "3:35"
+        },
+        {
+          "title": "MIN",
+          "duration": "2:05"
+        },
+        {
+          "title": "SUM",
+          "duration": "3:03"
+        }
+      ]
+    },
+    {
+      "title": "Agrupando Dados",
+      "lectures": 2,
+      "duration": "13min",
+      "lessons": [
+        {
+          "title": "GROUP BY",
+          "duration": "6:24"
+        },
+        {
+          "title": "HAVING",
+          "duration": "6:18"
+        }
+      ]
+    },
+    {
+      "title": "Operador de Conjunto",
+      "lectures": 3,
+      "duration": "9min",
+      "lessons": [
+        {
+          "title": "UNION",
+          "duration": "4:51"
+        },
+        {
+          "title": "INTERSECT",
+          "duration": "3:03"
+        },
+        {
+          "title": "MINUS",
+          "duration": "1:21"
+        }
+      ]
+    },
+    {
+      "title": "Subconsultas",
+      "lectures": 5,
+      "duration": "22min",
+      "lessons": [
+        {
+          "title": "Introdução a Subconsultas",
+          "duration": "8:34"
+        },
+        {
+          "title": "Subconsultas Correlacionadas",
+          "duration": "4:57"
+        },
+        {
+          "title": "Operador EXISTS",
+          "duration": "3:13"
+        },
+        {
+          "title": "Operador ALL",
+          "duration": "3:23"
+        },
+        {
+          "title": "Operador ANY",
+          "duration": "2:16"
+        }
+      ]
+    },
+    {
+      "title": "Manipulando Registros da Tabela",
+      "lectures": 3,
+      "duration": "16min",
+      "lessons": [
+        {
+          "title": "Inserindo Dados",
+          "duration": "7:30"
+        },
+        {
+          "title": "Atualizando Dados",
+          "duration": "4:33"
+        },
+        {
+          "title": "Excluindo Dados",
+          "duration": "4:26"
+        }
+      ]
+    },
+    {
+      "title": "Trabalhando com Tabelas",
+      "lectures": 3,
+      "duration": "16min",
+      "lessons": [
+        {
+          "title": "Criando Tabelas",
+          "duration": "5:04"
+        },
+        {
+          "title": "Alterando Tabelas",
+          "duration": "5:33"
+        },
+        {
+          "title": "Excluindo e Truncando Tabelas",
+          "duration": "4:55"
+        }
+      ]
+    },
+    {
+      "title": "Restrições de Integridade",
+      "lectures": 5,
+      "duration": "24min",
+      "lessons": [
+        {
+          "title": "Chave Primária",
+          "duration": "6:51"
+        },
+        {
+          "title": "Chave Estrangeira",
+          "duration": "4:31"
+        },
+        {
+          "title": "Chave Única",
+          "duration": "4:28"
+        },
+        {
+          "title": "Check Constraint",
+          "duration": "4:54"
+        },
+        {
+          "title": "Colunas Obrigatórias",
+          "duration": "3:27"
+        }
+      ]
+    },
+    {
+      "title": "Views e Triggers",
+      "lectures": 2,
+      "duration": "17min",
+      "lessons": [
+        {
+          "title": "Views",
+          "duration": "8:10"
+        },
+        {
+          "title": "Triggers",
+          "duration": "8:50"
+        }
+      ]
+    }
+  ],
+  "instructor": {
+    "name": "Luiz Fernando Estivalet",
+    "title": "Senior Automation Engineer",
+    "bio": "Complete Bachelor and Master degrees in Computer Science. English fluency. Information Technology professional with over 20 years of experience, working at major industrial companies such as Dell, Accenture and Serpro. Out of them, 5 years working on distributed teams across the globe. Strong technical and analytical problem solving coupled with ability to negotiate, manage systems and programs. Experienced in architecture and design of web systems, requirements gathering, and team leading. Specialties: Python, Selenium Web application testing system, Robot Framework",
+    "avatar": "assets/img/me2.png",
+    "rating": 4.7,
+    "students": "1400+",
+    "courses": 10
+  },
+  "reviews": []
+}

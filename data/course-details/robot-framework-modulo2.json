@@ -1,0 +1,344 @@
+{
+  "id": "robot-framework-modulo2",
+  "title": "Testes Automatizados usando Robot Framework - Módulo 2",
+  "subtitle": "Usando recursos avançados da ferramenta",
+  "image": "assets/img/robot-framework-modulo2.webp",
+  "videoUrl": "",
+  "rating": 4.6,
+  "ratingCount": "36",
+  "students": "194",
+  "lastUpdated": "Abril 2024",
+  "language": "Português",
+  "level": "Intermediário",
+  "totalLectures": 48,
+  "totalDuration": "4h 5min",
+  "udemyUrl": "https://www.udemy.com/course/testes-automatizados-usando-robot-framework-modulo2/",
+  "technologies": [
+    "Python",
+    "RobotFramework"
+  ],
+  "includes": [
+    {
+      "icon": "fas fa-video",
+      "text": "4,5 horas de vídeo sob demanda"
+    },
+    {
+      "icon": "fas fa-file-alt",
+      "text": "13 artigos"
+    },
+    {
+      "icon": "fas fa-download",
+      "text": "13 recursos para download"
+    },
+    {
+      "icon": "fas fa-infinity",
+      "text": "Acesso vitalício"
+    },
+    {
+      "icon": "fas fa-mobile-alt",
+      "text": "Acesso no mobile e TV"
+    },
+    {
+      "icon": "fas fa-certificate",
+      "text": "Certificado de conclusão"
+    }
+  ],
+  "whatYouLearn": [
+    "Instalar, configurar e atualizar o Robot Framework e suas principais bibliotecas",
+    "Criar e rodar scripts automatizados usando diversos recursos avançados",
+    "Acessar banco de dados com o Robot Framework e DatabaseLibrary",
+    "Variáveis avançadas e orientação a objeto dentro do Robot",
+    "Trabalhar com estruturas lógicas de controle e condicionais",
+    "Criar palavras-chave personalizadas em Python",
+    "XPath avançado para localização de elementos",
+    "Data Driven Tests usando arquivos CSV e JSON",
+    "Teste de APIs REST (GET, POST, PUT, DELETE)",
+    "Medir a qualidade dos scripts com RFLint e Robocop"
+  ],
+  "requirements": [
+    "Idealmente ter feito o módulo 1 deste curso",
+    "Noção básica de teste de software e criação de testes manuais",
+    "Noção básica de lógica de programação (variáveis, funções, laços)",
+    "Não é necessário experiência prévia em Selenium ou automação complexa"
+  ],
+  "description": "O curso Módulo 2 foca em recursos avançados da linguagem Robot Framework, como o uso de variáveis de sistema, variáveis automáticas e sintaxe estendida.\n\nAborda a integração com bancos de dados, testes orientados a dados (CSV/JSON), e automação de APIs Restful. Também explora o XPath avançado e ferramentas de qualidade de código como RFLint e Robocop para padronização de scripts.\n\nAo final do curso você será capaz de criar testes mais robustos, organizados e escaláveis, aplicando boas práticas de qualidade de código.",
+  "sections": [
+    {
+      "title": "Introdução ao módulo 2",
+      "lectures": 1,
+      "duration": "4min",
+      "lessons": [
+        {
+          "title": "Apresentação inicial do módulo 2",
+          "duration": "4:25"
+        }
+      ]
+    },
+    {
+      "title": "Atualização das Ferramentas de Teste",
+      "lectures": 4,
+      "duration": "18min",
+      "lessons": [
+        {
+          "title": "Apresentação",
+          "duration": "2:43"
+        },
+        {
+          "title": "Atualizar Python e Bibliotecas",
+          "duration": "10:30"
+        },
+        {
+          "title": "Atualizar navegadores e drivers",
+          "duration": "4:58"
+        },
+        {
+          "title": "ATENÇÃO: Chrome fechando sozinho mesmo sem o Close Browser",
+          "duration": "0:10"
+        }
+      ]
+    },
+    {
+      "title": "Novas Habilidades",
+      "lectures": 9,
+      "duration": "51min",
+      "lessons": [
+        {
+          "title": "Mudando nome de logs e reports",
+          "duration": "5:04"
+        },
+        {
+          "title": "Personalizar títulos de logs e relatórios",
+          "duration": "1:35"
+        },
+        {
+          "title": "Tags",
+          "duration": "8:48"
+        },
+        {
+          "title": "Timestamps",
+          "duration": "1:50"
+        },
+        {
+          "title": "Variáveis de sistema",
+          "duration": "3:15"
+        },
+        {
+          "title": "Variáveis automáticas",
+          "duration": "2:12"
+        },
+        {
+          "title": "Sintaxe estendido e orientação a objeto",
+          "duration": "12:38"
+        },
+        {
+          "title": "Retornando valores de palavras-chave",
+          "duration": "9:09"
+        },
+        {
+          "title": "Palavras chave com Python",
+          "duration": "6:54"
+        }
+      ]
+    },
+    {
+      "title": "XPath Avançado",
+      "lectures": 6,
+      "duration": "44min",
+      "lessons": [
+        {
+          "title": "Introdução ao XPath",
+          "duration": "10:20"
+        },
+        {
+          "title": "XPath na prática",
+          "duration": "4:42"
+        },
+        {
+          "title": "Exemplo XPath absoluto vs relativo",
+          "duration": "3:50"
+        },
+        {
+          "title": "Funções",
+          "duration": "8:37"
+        },
+        {
+          "title": "Axes/Eixos",
+          "duration": "5:31"
+        },
+        {
+          "title": "XPath parametrizável",
+          "duration": "10:43"
+        }
+      ]
+    },
+    {
+      "title": "Acessando Banco de Dados",
+      "lectures": 8,
+      "duration": "38min",
+      "lessons": [
+        {
+          "title": "Instalação MySQL",
+          "duration": "8:55"
+        },
+        {
+          "title": "Instalação biblioteca DatabaseLibrary",
+          "duration": "5:30"
+        },
+        {
+          "title": "Externalizando dados de conexão",
+          "duration": "3:05"
+        },
+        {
+          "title": "Verificando tabelas no banco de dados",
+          "duration": "4:26"
+        },
+        {
+          "title": "Verificando dados no banco de dados",
+          "duration": "3:07"
+        },
+        {
+          "title": "Retornando dados do banco",
+          "duration": "2:18"
+        },
+        {
+          "title": "Verificando quantidade de registros",
+          "duration": "5:15"
+        },
+        {
+          "title": "Criando, atualizando e excluindo",
+          "duration": "5:16"
+        }
+      ]
+    },
+    {
+      "title": "Testes Orientados a Dados",
+      "lectures": 7,
+      "duration": "1h 5min",
+      "lessons": [
+        {
+          "title": "Introdução aos Templates",
+          "duration": "10:03"
+        },
+        {
+          "title": "Exemplo: Cenários de login inválidos",
+          "duration": "14:21"
+        },
+        {
+          "title": "Templates para cenários de login inválidos",
+          "duration": "7:55"
+        },
+        {
+          "title": "Biblioteca para ler dados de arquivo CSV",
+          "duration": "8:30"
+        },
+        {
+          "title": "Usando a biblioteca CSV para cenários de login inválidos",
+          "duration": "6:45"
+        },
+        {
+          "title": "CSVLib",
+          "duration": "7:55"
+        },
+        {
+          "title": "Dados de teste em JSON",
+          "duration": "9:45"
+        }
+      ]
+    },
+    {
+      "title": "Teste de APIs",
+      "lectures": 9,
+      "duration": "50min",
+      "lessons": [
+        {
+          "title": "Introdução API e API Restful",
+          "duration": "4:27"
+        },
+        {
+          "title": "Teste da API ViaCEP",
+          "duration": "12:27"
+        },
+        {
+          "title": "IMPORTANTE: Atualização da keyword Dictionary Should Contain Item no RF6.0",
+          "duration": "0:38"
+        },
+        {
+          "title": "Introdução FakeRESTAPI",
+          "duration": "6:52"
+        },
+        {
+          "title": "Testando GET para listagem de livros",
+          "duration": "10:18"
+        },
+        {
+          "title": "Testando GET de livro por ID",
+          "duration": "4:58"
+        },
+        {
+          "title": "Testando POST para criar livro",
+          "duration": "4:23"
+        },
+        {
+          "title": "Testando PUT para alterar livro",
+          "duration": "3:36"
+        },
+        {
+          "title": "Testando DELETE para excluir livro",
+          "duration": "2:18"
+        }
+      ]
+    },
+    {
+      "title": "Qualidade dos Scripts de Teste Automatizados",
+      "lectures": 4,
+      "duration": "25min",
+      "lessons": [
+        {
+          "title": "Introdução",
+          "duration": "2:05"
+        },
+        {
+          "title": "Verificando script com a opção --dryrun",
+          "duration": "3:49"
+        },
+        {
+          "title": "RFLint",
+          "duration": "10:22"
+        },
+        {
+          "title": "Robocop",
+          "duration": "8:17"
+        }
+      ]
+    }
+  ],
+  "instructor": {
+    "name": "Luiz Fernando Estivalet",
+    "title": "Senior Automation Engineer",
+    "bio": "Complete Bachelor and Master degrees in Computer Science. English fluency. Information Technology professional with over 20 years of experience, working at major industrial companies such as Dell, Accenture and Serpro. Out of them, 5 years working on distributed teams across the globe. Strong technical and analytical problem solving coupled with ability to negotiate, manage systems and programs. Experienced in architecture and design of web systems, requirements gathering, and team leading. Specialties: Python, Selenium Web application testing system, Robot Framework",
+    "avatar": "assets/img/me2.png",
+    "rating": 4.7,
+    "students": "1400+",
+    "courses": 10
+  },
+  "reviews": [
+    {
+      "name": "Paulo Fernandes",
+      "rating": 5,
+      "date": "Março 2024",
+      "text": "Conteúdo muito rico e bem explicado. A parte de Data Driven Tests e APIs foi exatamente o que eu precisava para evoluir meus testes."
+    },
+    {
+      "name": "Luciana Borges",
+      "rating": 5,
+      "date": "Fevereiro 2024",
+      "text": "Excelente continuação do módulo 1. O XPath avançado e o acesso ao banco de dados foram os melhores tópicos para mim."
+    },
+    {
+      "name": "Rafael Moura",
+      "rating": 4,
+      "date": "Janeiro 2024",
+      "text": "Muito bom! Aprendi bastante sobre RFLint e Robocop. Recomendo muito para quem quer escrever testes de alta qualidade."
+    }
+  ]
+}

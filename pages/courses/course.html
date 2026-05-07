@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Course | Estivalet</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="../../assets/css/styles.css"/>
+  <link rel="stylesheet" href="../../assets/css/course-detail.css"/>
+</head>
+<body>
+
+<!-- Nav -->
+<nav class="navbar">
+  <div class="container">
+    <div class="nav-container">
+      <div class="logo">LFE</div>
+      <ul class="nav-links">
+        <li><a href="../../index.html#home">Home</a></li>
+        <li><a href="../../index.html#about">About</a></li>
+        <li><a href="../../index.html#skills">Skills</a></li>
+        <li><a href="../../index.html#services">Services</a></li>
+        <li><a href="../../index.html#courses" class="active">Courses</a></li>
+        <li><a href="../../index.html#projects">Projects</a></li>
+        <li><a href="../../index.html#games">Games</a></li>
+        <li><a href="../../index.html#experience">Experience</a></li>
+        <li><a href="../../index.html#contact">Contact</a></li>
+      </ul>
+      <button class="menu-toggle"><i class="fas fa-bars"></i></button>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero / Course Header -->
+<section class="cd-hero">
+  <div class="container cd-hero-inner">
+    <div class="cd-hero-text">
+      <a href="../courses.html" class="cd-breadcrumb"><i class="fas fa-arrow-left"></i> All Courses</a>
+      <h1 id="cd-hero-title">Loading…</h1>
+      <p id="cd-hero-subtitle" class="cd-subtitle"></p>
+      <div class="cd-meta-row">
+        <span id="cd-rating-val" class="cd-rating-num"></span>
+        <span id="cd-stars" class="cd-stars-inline"></span>
+        <span id="cd-rating-count" class="cd-muted"></span>
+        <span class="cd-dot"></span>
+        <span id="cd-students" class="cd-muted"></span>
+      </div>
+      <div class="cd-meta-row" style="margin-top:.5rem;gap:1.5rem">
+        <span class="cd-muted"><i class="fas fa-sync-alt"></i> <span id="cd-updated"></span></span>
+        <span class="cd-muted"><i class="fas fa-globe"></i> <span id="cd-language"></span></span>
+        <span class="cd-muted"><i class="fas fa-signal"></i> <span id="cd-level"></span></span>
+      </div>
+      <div id="cd-tech-tags" class="project-tech" style="margin-top:1rem"></div>
+      <div class="cd-hero-actions">
+        <a id="cd-udemy-btn" href="#" target="_blank" rel="noopener" class="btn btn-primary">
+          <i class="fas fa-graduation-cap"></i> Enroll on Udemy
+        </a>
+      </div>
+    </div>
+    <div class="cd-hero-img-wrap">
+      <div class="cd-video-wrap">
+        <iframe id="cd-hero-video"
+          src=""
+          title="Course preview"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+      <div class="cd-img-glow"></div>
+    </div>
+  </div>
+</section>
+
+<!-- Body -->
+<div class="container cd-body">
+
+  <!-- LEFT COLUMN -->
+  <div class="cd-main">
+
+    <!-- What you'll learn -->
+    <div class="cd-card">
+      <h2 class="cd-section-title">O que você vai aprender</h2>
+      <ul id="cd-learn-list" class="cd-learn-grid"></ul>
+    </div>
+
+    <!-- Requirements -->
+    <div class="cd-card">
+      <h2 class="cd-section-title">Requisitos</h2>
+      <ul id="cd-req-list" class="cd-req-list"></ul>
+    </div>
+
+    <!-- Description -->
+    <div class="cd-card">
+      <h2 class="cd-section-title">Descrição</h2>
+      <div id="cd-description" class="cd-description"></div>
+    </div>
+
+    <!-- Curriculum -->
+    <div class="cd-card">
+      <h2 class="cd-section-title">Conteúdo do Curso</h2>
+      <p id="cd-curriculum-meta" class="cd-muted" style="margin-bottom:1rem"></p>
+      <div id="cd-curriculum" class="cd-curriculum"></div>
+    </div>
+
+    <!-- Instructor -->
+    <div class="cd-card">
+      <h2 class="cd-section-title">Instrutor</h2>
+      <div class="cd-instructor">
+        <img id="cd-inst-avatar" src="" alt="Instructor" class="cd-inst-avatar"/>
+        <div class="cd-inst-info">
+          <h3 id="cd-inst-name" class="cd-inst-name"></h3>
+          <p id="cd-inst-title" class="cd-muted"></p>
+          <div class="cd-inst-stats">
+            <span><i class="fas fa-star"></i> <span id="cd-inst-rating"></span> Rating</span>
+            <span><i class="fas fa-users"></i> <span id="cd-inst-students"></span> Alunos</span>
+            <span><i class="fas fa-play-circle"></i> <span id="cd-inst-courses"></span> Cursos</span>
+          </div>
+          <p id="cd-inst-bio" class="cd-inst-bio"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Reviews -->
+    <div class="cd-card">
+      <h2 class="cd-section-title">Avaliações dos Alunos</h2>
+      <div class="cd-overall">
+        <div class="cd-overall-num" id="cd-overall-rating"></div>
+        <div>
+          <div id="cd-overall-stars" class="cd-stars-big"></div>
+          <div class="cd-muted" style="font-size:.85rem;margin-top:.3rem">Avaliação geral do curso</div>
+        </div>
+      </div>
+      <div id="cd-reviews" class="cd-reviews"></div>
+    </div>
+
+  </div><!-- /cd-main -->
+
+  <!-- RIGHT COLUMN (sticky includes card) -->
+  <aside class="cd-sidebar">
+    <div class="cd-includes-card">
+      <h3>Este curso inclui</h3>
+      <ul id="cd-includes" class="cd-includes-list"></ul>
+      <a id="cd-sidebar-btn" href="#" class="btn btn-primary" style="width:100%;text-align:center;margin-top:1.5rem">
+        <i class="fas fa-graduation-cap"></i> Acessar no Udemy
+      </a>
+    </div>
+  </aside>
+
+</div><!-- /cd-body -->
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-social">
+        <a href="https://github.com/estivalet" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/estivalet" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+        <a href="https://udemy.com/user/estivalet" target="_blank" rel="noopener"><i class="fas fa-graduation-cap"></i></a>
+        <a href="https://www.youtube.com/@CodingWithLuiz" target="_blank" rel="noopener"><i class="fab fa-youtube"></i></a>
+        <a href="mailto:estivalet@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+      <p>&copy; 2026 Estivalet. All rights reserved. Built with passion and lots of coffee ☕ &mdash; Porto Alegre, Brazil</p>
+    </div>
+  </div>
+</footer>
+
+<script src="../../assets/js/main.js"></script>
+<script src="../../assets/js/course-detail.js"></script>
+</body>
+</html>

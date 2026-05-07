@@ -1,0 +1,463 @@
+{
+  "id": "javascript-primeiros-passos",
+  "title": "Curso de Javascript - Primeiros Passos",
+  "subtitle": "Aprenda a linguagem que domina a web",
+  "image": "assets/img/javascript-primeiros-passos.webp",
+  "videoUrl": "",
+  "rating": 4.7,
+  "ratingCount": "2.100",
+  "students": "12.000+",
+  "lastUpdated": "Outubro 2023",
+  "language": "Português",
+  "level": "Iniciante",
+  "totalLectures": 81,
+  "totalDuration": "7h 41min",
+  "udemyUrl": "https://www.udemy.com/course/curso-de-javascript-primeiros-passos/",
+  "technologies": [
+    "Javascript"
+  ],
+  "includes": [
+    {
+      "icon": "fas fa-video",
+      "text": "7,5 horas de vídeo sob demanda"
+    },
+    {
+      "icon": "fas fa-list",
+      "text": "81 aulas em 11 seções"
+    },
+    {
+      "icon": "fas fa-infinity",
+      "text": "Acesso vitalício"
+    },
+    {
+      "icon": "fas fa-certificate",
+      "text": "Certificado de conclusão"
+    }
+  ],
+  "whatYouLearn": [
+    "Variáveis, tipos de dados e operadores lógicos",
+    "Estruturas condicionais (if, else, switch)",
+    "Laços de repetição (for, while)",
+    "Criar e utilizar funções",
+    "Manipulação básica da página HTML (DOM)",
+    "Eventos (clique, mouse, teclado)"
+  ],
+  "requirements": [
+    "Nenhum conhecimento prévio de programação é necessário",
+    "Conhecimento básico de HTML e CSS ajuda, mas não é obrigatório"
+  ],
+  "description": "Se você quer se tornar um Desenvolvedor Web, você precisa aprender JavaScript. Este curso é para quem está dando os primeiros passos na programação.\n\nVamos focar nos fundamentos da linguagem, entendendo a lógica por trás dos códigos. Ao final, faremos alguns scripts práticos conectando o JS com o HTML da página.",
+  "sections": [
+    {
+      "title": "Introdução",
+      "lectures": 4,
+      "duration": "20min",
+      "lessons": [
+        {
+          "title": "O que é Javascript",
+          "duration": "5:10"
+        },
+        {
+          "title": "Instalação do Visual Studio Code",
+          "duration": "2:43"
+        },
+        {
+          "title": "Verificando o Ambiente",
+          "duration": "3:28"
+        },
+        {
+          "title": "Formas de Incluir Javascript no HTML",
+          "duration": "8:46"
+        }
+      ]
+    },
+    {
+      "title": "Fundamentos",
+      "lectures": 9,
+      "duration": "44min",
+      "lessons": [
+        {
+          "title": "Sintaxe",
+          "duration": "9:21"
+        },
+        {
+          "title": "Variáveis",
+          "duration": "7:23"
+        },
+        {
+          "title": "null vs undefined",
+          "duration": "4:12"
+        },
+        {
+          "title": "Tipo de Dados: number",
+          "duration": "2:38"
+        },
+        {
+          "title": "Tipo de Dados: string",
+          "duration": "3:12"
+        },
+        {
+          "title": "Tipo de Dados: boolean",
+          "duration": "2:44"
+        },
+        {
+          "title": "Tipo de Dados: bigint e symbol",
+          "duration": "1:13"
+        },
+        {
+          "title": "Tipo de Dados: object",
+          "duration": "3:30"
+        },
+        {
+          "title": "Array",
+          "duration": "10:10"
+        }
+      ]
+    },
+    {
+      "title": "Operadores",
+      "lectures": 9,
+      "duration": "34min",
+      "lessons": [
+        {
+          "title": "Operadores Aritméticos",
+          "duration": "6:17"
+        },
+        {
+          "title": "Combinando Operadores Aritméticos",
+          "duration": "2:30"
+        },
+        {
+          "title": "Precedência dos Operadores Aritméticos",
+          "duration": "2:31"
+        },
+        {
+          "title": "Operadores Lógicos: AND, OR e NOT",
+          "duration": "6:57"
+        },
+        {
+          "title": "Combinando Operadores Lógicos",
+          "duration": "2:24"
+        },
+        {
+          "title": "Precedência de Operadores Lógicos",
+          "duration": "2:03"
+        },
+        {
+          "title": "Exercícios",
+          "duration": "0:40"
+        },
+        {
+          "title": "Operadores de Comparação",
+          "duration": "9:18"
+        },
+        {
+          "title": "Precedência dos Operadores de Comparação",
+          "duration": "1:41"
+        }
+      ]
+    },
+    {
+      "title": "Instruções de Controle",
+      "lectures": 10,
+      "duration": "1hr 1min",
+      "lessons": [
+        {
+          "title": "Comando \"if\"",
+          "duration": "4:42"
+        },
+        {
+          "title": "Comando \"if-else\"",
+          "duration": "3:54"
+        },
+        {
+          "title": "Comando \"if-else-if\"",
+          "duration": "7:38"
+        },
+        {
+          "title": "Operador Ternário",
+          "duration": "4:19"
+        },
+        {
+          "title": "Comando \"switch\"",
+          "duration": "9:21"
+        },
+        {
+          "title": "Comando \"while\"",
+          "duration": "4:13"
+        },
+        {
+          "title": "Comando \"do-while\"",
+          "duration": "8:51"
+        },
+        {
+          "title": "Comando \"for\"",
+          "duration": "7:39"
+        },
+        {
+          "title": "Comando \"break\"",
+          "duration": "6:01"
+        },
+        {
+          "title": "Comando \"continue\"",
+          "duration": "4:30"
+        }
+      ]
+    },
+    {
+      "title": "Funções",
+      "lectures": 8,
+      "duration": "49min",
+      "lessons": [
+        {
+          "title": "Introdução",
+          "duration": "8:48"
+        },
+        {
+          "title": "Funções \"cidadãs de primeira classe\"",
+          "duration": "8:20"
+        },
+        {
+          "title": "Exercício",
+          "duration": "1:32"
+        },
+        {
+          "title": "Funções Anônimas",
+          "duration": "7:26"
+        },
+        {
+          "title": "Funções Flecha",
+          "duration": "6:13"
+        },
+        {
+          "title": "Passagem de Parâmetro",
+          "duration": "6:19"
+        },
+        {
+          "title": "Parâmetros Padrão",
+          "duration": "5:33"
+        },
+        {
+          "title": "Recursão",
+          "duration": "4:38"
+        }
+      ]
+    },
+    {
+      "title": "Objetos",
+      "lectures": 10,
+      "duration": "34min",
+      "lessons": [
+        {
+          "title": "O que são Objetos?",
+          "duration": "1:42"
+        },
+        {
+          "title": "Estrutura de um Objeto",
+          "duration": "4:19"
+        },
+        {
+          "title": "Alterando Valores e Excluindo Propriedades",
+          "duration": "2:00"
+        },
+        {
+          "title": "Métodos",
+          "duration": "3:10"
+        },
+        {
+          "title": "Exemplo - Um Objeto Carro",
+          "duration": "2:43"
+        },
+        {
+          "title": "Desafio - Calculadora",
+          "duration": "3:50"
+        },
+        {
+          "title": "Métodos Abreviados e Propriedades Calculadas",
+          "duration": "3:54"
+        },
+        {
+          "title": "Herança Prototípica",
+          "duration": "3:43"
+        },
+        {
+          "title": "Criando Cadeias de Objetos",
+          "duration": "4:12"
+        },
+        {
+          "title": "Criando Objetos - Operador new e object.create()",
+          "duration": "4:43"
+        }
+      ]
+    },
+    {
+      "title": "Classes",
+      "lectures": 12,
+      "duration": "1hr 18min",
+      "lessons": [
+        {
+          "title": "O que são Classes?",
+          "duration": "6:04"
+        },
+        {
+          "title": "Getters e Setters",
+          "duration": "6:22"
+        },
+        {
+          "title": "Getter e Setters como Propriedades",
+          "duration": "2:29"
+        },
+        {
+          "title": "Comparando Getters e Setters com Métodos",
+          "duration": "3:41"
+        },
+        {
+          "title": "Expressões de Classe",
+          "duration": "8:31"
+        },
+        {
+          "title": "Propriedades Computadas",
+          "duration": "4:42"
+        },
+        {
+          "title": "Herança",
+          "duration": "7:40"
+        },
+        {
+          "title": "Entendendo o new.target",
+          "duration": "5:33"
+        },
+        {
+          "title": "Métodos Estáticos",
+          "duration": "10:17"
+        },
+        {
+          "title": "Propriedades Estáticas",
+          "duration": "6:48"
+        },
+        {
+          "title": "Campos Privados",
+          "duration": "8:08"
+        },
+        {
+          "title": "Métodos Privados",
+          "duration": "7:30"
+        }
+      ]
+    },
+    {
+      "title": "Maps e Sets",
+      "lectures": 3,
+      "duration": "23min",
+      "lessons": [
+        {
+          "title": "Trabalhando com Map",
+          "duration": "9:24"
+        },
+        {
+          "title": "Map - Exemplo Prático",
+          "duration": "3:21"
+        },
+        {
+          "title": "Trabalhando com Set",
+          "duration": "9:48"
+        }
+      ]
+    },
+    {
+      "title": "Tratamento de Exceção",
+      "lectures": 3,
+      "duration": "17min",
+      "lessons": [
+        {
+          "title": "try/catch",
+          "duration": "5:59"
+        },
+        {
+          "title": "try/catch/finally",
+          "duration": "4:12"
+        },
+        {
+          "title": "throw",
+          "duration": "6:39"
+        }
+      ]
+    },
+    {
+      "title": "Manipulando o DOM",
+      "lectures": 11,
+      "duration": "1hr 6min",
+      "lessons": [
+        {
+          "title": "O que é o DOM?",
+          "duration": "2:45"
+        },
+        {
+          "title": "Selecionando Elementos",
+          "duration": "11:28"
+        },
+        {
+          "title": "Encontrando o Elemento Pai",
+          "duration": "2:35"
+        },
+        {
+          "title": "Elementos filhos e irmãos",
+          "duration": "8:30"
+        },
+        {
+          "title": "Prática: Recuperando todos os irmãos de um elemento",
+          "duration": "4:12"
+        },
+        {
+          "title": "Criando Elementos",
+          "duration": "7:57"
+        },
+        {
+          "title": "Anexando Elementos",
+          "duration": "5:43"
+        },
+        {
+          "title": "Inserindo Texto nos Elementos",
+          "duration": "3:39"
+        },
+        {
+          "title": "Inserindo HTML nos Elementos",
+          "duration": "5:54"
+        },
+        {
+          "title": "createElement() vs innerHTML",
+          "duration": "6:26"
+        },
+        {
+          "title": "Eventos",
+          "duration": "6:35"
+        }
+      ]
+    },
+    {
+      "title": "Projeto",
+      "lectures": 2,
+      "duration": "36min",
+      "lessons": [
+        {
+          "title": "Sobre o Jogo da Forca",
+          "duration": "0:13"
+        },
+        {
+          "title": "Jogo da Forca",
+          "duration": "35:32"
+        }
+      ]
+    }
+  ],
+  "instructor": {
+    "name": "Luiz Fernando Estivalet",
+    "title": "Senior Automation Engineer",
+    "bio": "Complete Bachelor and Master degrees in Computer Science. English fluency. Information Technology professional with over 20 years of experience, working at major industrial companies such as Dell, Accenture and Serpro. Out of them, 5 years working on distributed teams across the globe. Strong technical and analytical problem solving coupled with ability to negotiate, manage systems and programs. Experienced in architecture and design of web systems, requirements gathering, and team leading. Specialties: Python, Selenium Web application testing system, Robot Framework",
+    "avatar": "assets/img/me2.png",
+    "rating": 4.7,
+    "students": "1400+",
+    "courses": 10
+  },
+  "reviews": []
+}

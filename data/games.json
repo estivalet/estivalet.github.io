@@ -1,0 +1,42 @@
+[
+  {
+    "id": "memory-card",
+    "title": "Kinder Fix - Memory Game",
+    "description": "A fun and interactive memory card game built with HTML, CSS, and JavaScript! Test your memory by matching pairs of cards and clearing the board!",
+    "icon": "fas fa-space-shuttle",
+    "technologies": ["HTML", "CSS", "Javascript"],
+    "playUrl": "https://estivalet.github.io/kinder-fix-memory-game/",
+    "githubUrl": "https://github.com/estivalet/kinder-fix-memory-game",
+    "image": "assets/img/memory-card.jpg"
+  },
+  {
+    "id": "theseus-and-minotaur",
+    "title": "Theseus and the Minotaur",
+    "description": "Theseus and the Minotaur is a logic maze game designed by Robert Abbott. In this game, you play as Theseus, the legendary king of Athens, trying to escape the Labyrinth without being caught by the dangerous Minotaur. Unlike traditional mazes, this one is more challenging: the Minotaur takes two steps for every one of Theseus's, so each move requires careful planning!",
+    "icon": "fas fa-space-shuttle",
+    "technologies": ["HTML", "CSS", "Javascript"],
+    "playUrl": "https://estivalet.github.io/kinder-fix-memory-game/",
+    "githubUrl": "https://estivalet.github.io/theseus-minotaur",
+    "image": "assets/img/theseus-and-minotaur.jpg"
+  },
+  {
+    "id": "tilt-maze",
+    "title": "2D Tilt Maze",
+    "description": "This project brings Andrea Gilbert's classic \"tilt mazes\" to life, where your objective is to guide a marble through various mazes by tilting the board in different directions. In this game, you play as Theseus, the legendary king of Athens, trying to escape the Labyrinth without being caught by the dangerous Minotaur. Unlike traditional mazes, this one is more challenging: the Minotaur takes two steps for every one of Theseus's, so each move requires careful planning!",
+    "icon": "fas fa-space-shuttle",
+    "technologies": ["HTML", "CSS", "Javascript"],
+    "playUrl": "https://estivalet.github.io/tilt-maze/",
+    "githubUrl": "https://github.com/estivalet/tilt-maze",
+    "image": "assets/img/tilt-maze.jpg"
+  },
+  {
+    "id": "dord",
+    "title": "Dord",
+    "description": "Dord is an original puzzle-platformer featuring 56 levels. The goal is to collect all the diamonds while avoiding things that kill you.",
+    "icon": "fas fa-space-shuttle",
+    "technologies": ["HTML", "CSS", "Javascript"],
+    "playUrl": "https://estivalet.github.io/dord/",
+    "githubUrl": "https://github.com/estivalet/dord",
+    "image": "assets/img/dord.jpg"
+  }
+]

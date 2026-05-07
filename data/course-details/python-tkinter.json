@@ -1,0 +1,472 @@
+{
+  "id": "python-tkinter",
+  "title": "Crie Interfaces Gráficas com Python e Tkinter",
+  "subtitle": "Uma Introdução Prática e Abrangente ao Desenvolvimento de Interfaces Gráficas Utilizando Python",
+  "image": "assets/img/python-tkinter.webp",
+  "videoUrl": "",
+  "rating": 4.8,
+  "ratingCount": "15",
+  "students": "52",
+  "lastUpdated": "Março 2025",
+  "language": "Português",
+  "level": "Iniciante ao Intermediário",
+  "totalLectures": 73,
+  "totalDuration": "5h 3min",
+  "udemyUrl": "https://www.udemy.com/course/crie-interfaces-graficas-com-python-e-tkinter/?couponCode=FS260504G1",
+  "technologies": [
+    "Python",
+    "tkinter"
+  ],
+  "includes": [
+    {
+      "icon": "fas fa-video",
+      "text": "5 horas de vídeo sob demanda"
+    },
+    {
+      "icon": "fas fa-file-alt",
+      "text": "10 artigos"
+    },
+    {
+      "icon": "fas fa-download",
+      "text": "9 recursos para download"
+    },
+    {
+      "icon": "fas fa-list",
+      "text": "73 aulas em 10 seções"
+    },
+    {
+      "icon": "fas fa-infinity",
+      "text": "Acesso vitalício"
+    },
+    {
+      "icon": "fas fa-mobile-alt",
+      "text": "Acesso no mobile e TV"
+    },
+    {
+      "icon": "fas fa-certificate",
+      "text": "Certificado de conclusão"
+    }
+  ],
+  "whatYouLearn": [
+    "Criar interfaces gráficas personalizadas com Python e Tkinter",
+    "Gerenciar eventos e entrada do usuário para aplicativos interativos",
+    "Utilizar layouts eficientes para construir interfaces responsivas",
+    "Trabalhar com todos os widgets do Tkinter: Label, Button, Entry, Canvas, Treeview e mais",
+    "Aplicar gerenciadores de layout: pack(), grid() e place()",
+    "Criar diálogos, menus e caixas de seleção de arquivos e cores",
+    "Usar programação orientada a objetos (POO) para organizar aplicações",
+    "Aplicar temas e estilos para personalizar a aparência da interface",
+    "Desenvolver aplicações assíncronas com after() e Threads",
+    "Projetar aplicações completas aplicando o padrão MVC"
+  ],
+  "requirements": [
+    "Conhecimento básico de lógica de programação (preferencialmente em Python)",
+    "Computador (Windows, macOS ou Linux) com Python instalado",
+    "Vontade de aprender e colocar a mão na massa!"
+  ],
+  "description": "Este curso foi criado para quem deseja aprender a desenvolver interfaces gráficas com Python usando a biblioteca Tkinter, a solução padrão e mais acessível para criação de GUIs em Python.\n\nVocê começará do zero: aprenderá a criar janelas, definir dimensões, títulos e ícones. Em seguida explorará os principais gerenciadores de layout (pack, grid e place) e uma grande variedade de widgets como Label, Frame, Text, Scrollbar, Checkbutton, Radiobutton, Combobox, Listbox, Canvas, Treeview, Progressbar e muito mais.\n\nNa parte intermediária você aprenderá a trabalhar com diálogos (MessageBox, seleção de arquivos, escolha de cores) e menus. Depois mergulhará em orientação a objetos aplicada a interfaces gráficas, criando janelas e frames reutilizáveis.\n\nVocê também aprenderá a personalizar temas e estilos, usar variáveis de controle (StringVar), programar de forma assíncrona com after() e Threads, e aplicar o padrão arquitetural MVC em suas aplicações.\n\nO curso finaliza com dois projetos práticos completos: uma Lista de Tarefas e um Cadastro de Endereço com busca de CEP via API.",
+  "sections": [
+    {
+      "title": "Introdução",
+      "lectures": 3,
+      "duration": "6min",
+      "lessons": [
+        {
+          "title": "Apresentação do Curso",
+          "duration": "1:31"
+        },
+        {
+          "title": "Instalação do Python",
+          "duration": "3:01"
+        },
+        {
+          "title": "Instalação do Visual Studio Code",
+          "duration": "1:51"
+        }
+      ]
+    },
+    {
+      "title": "Fundamentos do Tkinter",
+      "lectures": 13,
+      "duration": "51min",
+      "lessons": [
+        {
+          "title": "Código fonte utilizado no capítulo",
+          "duration": "0:01"
+        },
+        {
+          "title": "Hello World",
+          "duration": "4:16"
+        },
+        {
+          "title": "Tamanho e posição das Janelas",
+          "duration": "6:51"
+        },
+        {
+          "title": "Redimensionar janelas",
+          "duration": "2:32"
+        },
+        {
+          "title": "Janelas transparentes",
+          "duration": "1:08"
+        },
+        {
+          "title": "Ordem de múltiplas janelas",
+          "duration": "2:15"
+        },
+        {
+          "title": "Ícones",
+          "duration": "1:15"
+        },
+        {
+          "title": "Temas de widgets",
+          "duration": "3:58"
+        },
+        {
+          "title": "Executando comandos",
+          "duration": "4:41"
+        },
+        {
+          "title": "Associando eventos",
+          "duration": "7:32"
+        },
+        {
+          "title": "Labels",
+          "duration": "6:29"
+        },
+        {
+          "title": "Botões",
+          "duration": "5:42"
+        },
+        {
+          "title": "Caixas de texto",
+          "duration": "3:51"
+        }
+      ]
+    },
+    {
+      "title": "Gerenciadores de Layout",
+      "lectures": 5,
+      "duration": "23min",
+      "lessons": [
+        {
+          "title": "Código fonte utilizado no capítulo",
+          "duration": "0:01"
+        },
+        {
+          "title": "pack()",
+          "duration": "6:37"
+        },
+        {
+          "title": "grid()",
+          "duration": "9:20"
+        },
+        {
+          "title": "place()",
+          "duration": "4:47"
+        },
+        {
+          "title": "Tamanho das widgets",
+          "duration": "2:36"
+        }
+      ]
+    },
+    {
+      "title": "Widgets",
+      "lectures": 19,
+      "duration": "1h 11min",
+      "lessons": [
+        {
+          "title": "Código fonte utilizado no capítulo",
+          "duration": "0:01"
+        },
+        {
+          "title": "Frame",
+          "duration": "10:23"
+        },
+        {
+          "title": "Text",
+          "duration": "3:03"
+        },
+        {
+          "title": "Scrollbar",
+          "duration": "5:02"
+        },
+        {
+          "title": "Separator",
+          "duration": "1:11"
+        },
+        {
+          "title": "Checkbutton",
+          "duration": "2:24"
+        },
+        {
+          "title": "Radiobutton",
+          "duration": "3:08"
+        },
+        {
+          "title": "Combobox",
+          "duration": "4:00"
+        },
+        {
+          "title": "Listbox",
+          "duration": "4:17"
+        },
+        {
+          "title": "PanedWindow",
+          "duration": "1:47"
+        },
+        {
+          "title": "Slider",
+          "duration": "3:16"
+        },
+        {
+          "title": "Spinbox",
+          "duration": "3:03"
+        },
+        {
+          "title": "Sizegrip",
+          "duration": "1:06"
+        },
+        {
+          "title": "LabelFrame",
+          "duration": "3:59"
+        },
+        {
+          "title": "Progressbar",
+          "duration": "4:43"
+        },
+        {
+          "title": "Notebook",
+          "duration": "4:31"
+        },
+        {
+          "title": "Treeview",
+          "duration": "6:02"
+        },
+        {
+          "title": "Canvas",
+          "duration": "5:06"
+        },
+        {
+          "title": "Cursors",
+          "duration": "4:06"
+        }
+      ]
+    },
+    {
+      "title": "Diálogos e Menus",
+      "lectures": 8,
+      "duration": "26min",
+      "lessons": [
+        {
+          "title": "Código fonte utilizado no capítulo",
+          "duration": "0:01"
+        },
+        {
+          "title": "MessageBox",
+          "duration": "2:40"
+        },
+        {
+          "title": "Caixas de confirmação",
+          "duration": "3:49"
+        },
+        {
+          "title": "Selecionar arquivos",
+          "duration": "5:55"
+        },
+        {
+          "title": "Escolher cores",
+          "duration": "1:56"
+        },
+        {
+          "title": "Menus",
+          "duration": "7:54"
+        },
+        {
+          "title": "Botões de menu",
+          "duration": "1:47"
+        },
+        {
+          "title": "Menu de opções",
+          "duration": "2:10"
+        }
+      ]
+    },
+    {
+      "title": "Programação Orientada a Objeto",
+      "lectures": 7,
+      "duration": "35min",
+      "lessons": [
+        {
+          "title": "Código fonte utilizado no capítulo",
+          "duration": "0:01"
+        },
+        {
+          "title": "Janela OOP",
+          "duration": "4:46"
+        },
+        {
+          "title": "Frame OOP",
+          "duration": "7:31"
+        },
+        {
+          "title": "Prática: Conversor de Temperatura",
+          "duration": "5:21"
+        },
+        {
+          "title": "Prática: Melhorando o Conversor de Temperatura",
+          "duration": "11:29"
+        },
+        {
+          "title": "Criando janelas adicionais",
+          "duration": "3:32"
+        },
+        {
+          "title": "PhotoImage",
+          "duration": "2:32"
+        }
+      ]
+    },
+    {
+      "title": "Temas e Estilos",
+      "lectures": 6,
+      "duration": "22min",
+      "lessons": [
+        {
+          "title": "Código fonte utilizado no capítulo",
+          "duration": "0:01"
+        },
+        {
+          "title": "Temas",
+          "duration": "2:51"
+        },
+        {
+          "title": "Estilos",
+          "duration": "6:17"
+        },
+        {
+          "title": "Elementos ttk",
+          "duration": "5:30"
+        },
+        {
+          "title": "Stringvar",
+          "duration": "5:31"
+        },
+        {
+          "title": "Alterando aparência de widgets dinamicamente",
+          "duration": "2:05"
+        }
+      ]
+    },
+    {
+      "title": "Programação Assíncrona",
+      "lectures": 4,
+      "duration": "18min",
+      "lessons": [
+        {
+          "title": "Código fonte utilizado no capítulo",
+          "duration": "0:01"
+        },
+        {
+          "title": "Agendar ação com o método after()",
+          "duration": "5:42"
+        },
+        {
+          "title": "Threads",
+          "duration": "6:26"
+        },
+        {
+          "title": "Prática: Aplicativo para visualizar imagens",
+          "duration": "6:11"
+        }
+      ]
+    },
+    {
+      "title": "Programação Avançada",
+      "lectures": 4,
+      "duration": "17min",
+      "lessons": [
+        {
+          "title": "Código fonte utilizado no capítulo",
+          "duration": "0:01"
+        },
+        {
+          "title": "Modelo MVC",
+          "duration": "2:36"
+        },
+        {
+          "title": "Exemplo de aplicação aplicando MVC",
+          "duration": "6:07"
+        },
+        {
+          "title": "Validação de campos",
+          "duration": "8:12"
+        }
+      ]
+    },
+    {
+      "title": "Projetos",
+      "lectures": 4,
+      "duration": "33min",
+      "lessons": [
+        {
+          "title": "Lista de Tarefas",
+          "duration": "16:55"
+        },
+        {
+          "title": "Lista de Tarefas - código fonte",
+          "duration": "0:01"
+        },
+        {
+          "title": "Cadastro de Endereço - Buscador de CEP via API",
+          "duration": "14:34"
+        },
+        {
+          "title": "Cadastro de Endereço - código fonte",
+          "duration": "1:04"
+        }
+      ]
+    },
+    {
+      "title": "Conclusão",
+      "lectures": 1,
+      "duration": "1min",
+      "lessons": [
+        {
+          "title": "Conclusão",
+          "duration": "1:11"
+        }
+      ]
+    }
+  ],
+  "instructor": {
+    "name": "Luiz Fernando Estivalet",
+    "title": "Senior Automation Engineer",
+    "bio": "Complete Bachelor and Master degrees in Computer Science. English fluency. Information Technology professional with over 20 years of experience, working at major industrial companies such as Dell, Accenture and Serpro. Out of them, 5 years working on distributed teams across the globe. Strong technical and analytical problem solving coupled with ability to negotiate, manage systems and programs. Experienced in architecture and design of web systems, requirements gathering, and team leading. Specialties: Python, Selenium Web application testing system, Robot Framework",
+    "avatar": "assets/img/me2.png",
+    "rating": 4.7,
+    "students": "1400+",
+    "courses": 10
+  },
+  "reviews": [
+    {
+      "name": "Maria Oliveira",
+      "rating": 5,
+      "date": "Março 2025",
+      "text": "Curso excelente! Muito didático e com exemplos práticos. Consegui criar minha primeira aplicação desktop em Python logo na primeira semana."
+    },
+    {
+      "name": "João Souza",
+      "rating": 5,
+      "date": "Fevereiro 2025",
+      "text": "Conteúdo muito bem organizado. O professor explica cada widget com clareza e os projetos finais são muito úteis para fixar o aprendizado."
+    },
+    {
+      "name": "Fernanda Lima",
+      "rating": 4,
+      "date": "Janeiro 2025",
+      "text": "Ótimo curso para quem já sabe o básico de Python e quer aprender a criar interfaces gráficas. Os exemplos de POO e MVC foram os meus favoritos."
+    }
+  ]
+}

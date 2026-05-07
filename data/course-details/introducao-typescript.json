@@ -1,0 +1,365 @@
+{
+  "id": "introducao-typescript",
+  "title": "Introdução ao TypeScript",
+  "subtitle": "Domine TypeScript e Type Safety: aprenda POO, Programação Assíncrona e Modularização em projetos reais",
+  "image": "assets/img/introducao-typescript.webp",
+  "videoUrl": "",
+  "rating": 5.0,
+  "ratingCount": "1",
+  "students": "3",
+  "lastUpdated": "Março 2026",
+  "language": "Português",
+  "level": "Iniciante",
+  "totalLectures": 57,
+  "totalDuration": "6h 43min",
+  "udemyUrl": "https://www.udemy.com/course/introducao-ao-typescript/?couponCode=FS260504G1",
+  "technologies": [
+    "TypeScript",
+    "Javascript"
+  ],
+  "includes": [
+    {
+      "icon": "fas fa-video",
+      "text": "6,5 horas de vídeo sob demanda"
+    },
+    {
+      "icon": "fas fa-file-alt",
+      "text": "10 artigos"
+    },
+    {
+      "icon": "fas fa-download",
+      "text": "17 recursos para download"
+    },
+    {
+      "icon": "fas fa-list",
+      "text": "57 aulas em 9 seções"
+    },
+    {
+      "icon": "fas fa-infinity",
+      "text": "Acesso vitalício"
+    },
+    {
+      "icon": "fas fa-mobile-alt",
+      "text": "Acesso no mobile e TV"
+    },
+    {
+      "icon": "fas fa-certificate",
+      "text": "Certificado de conclusão"
+    }
+  ],
+  "whatYouLearn": [
+    "Implementar tipagem estática e interfaces para garantir segurança de dados e capturar erros em tempo de compilação.",
+    "Arquitetar sistemas com Orientação a Objetos (classes, modificadores de acesso).",
+    "Dominar fluxos assíncronos e tratamento de erros (async/await).",
+    "Modularizar e configurar projetos profissionais (tsconfig.json)."
+  ],
+  "requirements": [
+    "Conhecimentos básicos de lógica de programação (variáveis, loops, funções).",
+    "Interesse em aprender desenvolvimento de software resiliente e tipado.",
+    "Computador com Windows, macOS ou Linux."
+  ],
+  "description": "O TypeScript se tornou o padrão na indústria para projetos escaláveis. Este curso te ensina a tirar proveito da tipagem estática para capturar erros antes de rodar o código.\n\nAbordaremos desde a instalação, tipos básicos, configuração do compilador, até recursos avançados como Interfaces, Classes e Generics. Ideal para quem quer se preparar para frameworks modernos que adotam TS por padrão.",
+  "sections": [
+    {
+      "title": "Introdução ao TypeScript",
+      "lectures": 7,
+      "duration": "32min",
+      "lessons": [
+        {
+          "title": "O que é TypeScript",
+          "duration": "06:04"
+        },
+        {
+          "title": "Ambiente de Desenvolvimento",
+          "duration": "08:34"
+        },
+        {
+          "title": "Instalação do Node no Linux/Mac",
+          "duration": "00:26"
+        },
+        {
+          "title": "Primeiro Projeto",
+          "duration": "12:32"
+        },
+        {
+          "title": "Exercícios",
+          "duration": "01:09"
+        },
+        {
+          "title": "Usando o tsx",
+          "duration": "01:33"
+        },
+        {
+          "title": "Coalescência Nula",
+          "duration": "02:00"
+        }
+      ]
+    },
+    {
+      "title": "Fundamentos do TyepScript",
+      "lectures": 12,
+      "duration": "1h 11min",
+      "lessons": [
+        {
+          "title": "Variáveis e Tipos Primitivos",
+          "duration": "10:57"
+        },
+        {
+          "title": "Tipo object",
+          "duration": "04:34"
+        },
+        {
+          "title": "Operadores Matemáticos e Lógicos",
+          "duration": "09:58"
+        },
+        {
+          "title": "Operadores Matemáticos e Lógicos - parte 2",
+          "duration": "06:22"
+        },
+        {
+          "title": "Exercícios",
+          "duration": "01:32"
+        },
+        {
+          "title": "Tipagem",
+          "duration": "07:43"
+        },
+        {
+          "title": "Arrays",
+          "duration": "05:45"
+        },
+        {
+          "title": "Tuplas",
+          "duration": "03:39"
+        },
+        {
+          "title": "Enum",
+          "duration": "04:17"
+        },
+        {
+          "title": "Template String",
+          "duration": "07:57"
+        },
+        {
+          "title": "Entrada e saída",
+          "duration": "06:38"
+        },
+        {
+          "title": "Exercícios",
+          "duration": "01:27"
+        }
+      ]
+    },
+    {
+      "title": "Estruturas de Controle",
+      "lectures": 5,
+      "duration": "35min",
+      "lessons": [
+        {
+          "title": "Condições",
+          "duration": "09:28"
+        },
+        {
+          "title": "Exercícios",
+          "duration": "01:31"
+        },
+        {
+          "title": "Laços de repetição",
+          "duration": "10:33"
+        },
+        {
+          "title": "Arrays - trabalhando com listas",
+          "duration": "11:38"
+        },
+        {
+          "title": "Exercícios",
+          "duration": "01:29"
+        }
+      ]
+    },
+    {
+      "title": "Funções e Escopo",
+      "lectures": 6,
+      "duration": "39min",
+      "lessons": [
+        {
+          "title": "Criando Funções",
+          "duration": "06:31"
+        },
+        {
+          "title": "Retorno Tipado",
+          "duration": "05:17"
+        },
+        {
+          "title": "Arrow Function",
+          "duration": "08:55"
+        },
+        {
+          "title": "Exercícios",
+          "duration": "01:13"
+        },
+        {
+          "title": "Funções Anônimas e Callbacks",
+          "duration": "08:36"
+        },
+        {
+          "title": "Funções em Objetos",
+          "duration": "08:08"
+        }
+      ]
+    },
+    {
+      "title": "Orientação a Objetos",
+      "lectures": 10,
+      "duration": "1h 23min",
+      "lessons": [
+        {
+          "title": "Classes e Objetos",
+          "duration": "09:09"
+        },
+        {
+          "title": "Construtores e Propriedades",
+          "duration": "09:58"
+        },
+        {
+          "title": "Exercícios",
+          "duration": "01:15"
+        },
+        {
+          "title": "Métodos de Classe",
+          "duration": "10:53"
+        },
+        {
+          "title": "Métrodos de Classe - continuação",
+          "duration": "11:33"
+        },
+        {
+          "title": "Herança e Polimorfismo",
+          "duration": "15:24"
+        },
+        {
+          "title": "Herança e Polimorfismo - exemplo",
+          "duration": "05:09"
+        },
+        {
+          "title": "Exercícios",
+          "duration": "01:31"
+        },
+        {
+          "title": "Interfaces",
+          "duration": "15:16"
+        },
+        {
+          "title": "Interfaces - continuação",
+          "duration": "02:38"
+        }
+      ]
+    },
+    {
+      "title": "Manipulação de Dados",
+      "lectures": 5,
+      "duration": "44min",
+      "lessons": [
+        {
+          "title": "Objetos Literais",
+          "duration": "06:37"
+        },
+        {
+          "title": "O que é JSON?",
+          "duration": "10:15"
+        },
+        {
+          "title": "Arrays de Objetos",
+          "duration": "08:58"
+        },
+        {
+          "title": "Arrays - Métodos Avançados",
+          "duration": "08:04"
+        },
+        {
+          "title": "Desestruturação de Objetos e Arrays",
+          "duration": "10:29"
+        }
+      ]
+    },
+    {
+      "title": "Programação Assíncrona",
+      "lectures": 4,
+      "duration": "37min",
+      "lessons": [
+        {
+          "title": "Introdução",
+          "duration": "04:05"
+        },
+        {
+          "title": "Promises",
+          "duration": "14:12"
+        },
+        {
+          "title": "Async e Await",
+          "duration": "11:15"
+        },
+        {
+          "title": "Praticando - Consultando uma API",
+          "duration": "07:16"
+        }
+      ]
+    },
+    {
+      "title": "Modularização",
+      "lectures": 5,
+      "duration": "20min",
+      "lessons": [
+        {
+          "title": "Introdução",
+          "duration": "04:53"
+        },
+        {
+          "title": "Export e Import",
+          "duration": "06:20"
+        },
+        {
+          "title": "Exercícios",
+          "duration": "01:24"
+        },
+        {
+          "title": "Boas Práticas de Estrutura",
+          "duration": "04:40"
+        },
+        {
+          "title": "Exercício de Refatoração",
+          "duration": "03:02"
+        }
+      ]
+    },
+    {
+      "title": "Projetos Práticos",
+      "lectures": 3,
+      "duration": "42min",
+      "lessons": [
+        {
+          "title": "Lista de Tarefas",
+          "duration": "13:31"
+        },
+        {
+          "title": "Adivinhe o Número",
+          "duration": "10:05"
+        },
+        {
+          "title": "Criando uma API",
+          "duration": "18:46"
+        }
+      ]
+    }
+  ],
+  "instructor": {
+    "name": "Luiz Fernando Estivalet",
+    "title": "Senior Automation Engineer",
+    "bio": "Complete Bachelor and Master degrees in Computer Science. English fluency. Information Technology professional with over 20 years of experience, working at major industrial companies such as Dell, Accenture and Serpro. Out of them, 5 years working on distributed teams across the globe. Strong technical and analytical problem solving coupled with ability to negotiate, manage systems and programs. Experienced in architecture and design of web systems, requirements gathering, and team leading. Specialties: Python, Selenium Web application testing system, Robot Framework",
+    "avatar": "assets/img/me2.png",
+    "rating": 4.7,
+    "students": "1400+",
+    "courses": 10
+  },
+  "reviews": []
+}
