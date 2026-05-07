@@ -3,7 +3,7 @@
   "title": "Introdução ao SQL",
   "subtitle": "Domine consultas em banco de dados do zero ao Join",
   "image": "assets/img/introducao-sql.webp",
-  "videoUrl": "",
+  "videoUrl": "https://www.youtube.com/embed/n0sy7NDIp0A",
   "rating": 4.7,
   "ratingCount": "1.200",
   "students": "5.600+",
@@ -13,10 +13,7 @@
   "totalLectures": 54,
   "totalDuration": "4h 26min",
   "udemyUrl": "https://www.udemy.com/course/introducao-sql/",
-  "technologies": [
-    "SQL",
-    "PostgreSQL"
-  ],
+  "technologies": ["SQL", "PostgreSQL"],
   "includes": [
     {
       "icon": "fas fa-video",
@@ -43,10 +40,7 @@
     "Relacionar tabelas com INNER, LEFT e RIGHT JOIN",
     "Comandos DML (INSERT, UPDATE, DELETE)"
   ],
-  "requirements": [
-    "Nenhum conhecimento prévio necessário",
-    "Computador com acesso à internet para rodar as queries"
-  ],
+  "requirements": ["Nenhum conhecimento prévio necessário", "Computador com acesso à internet para rodar as queries"],
   "description": "SQL é a linguagem essencial para trabalhar com dados. Neste curso focado e prático, você aprenderá a escrever queries para extrair e analisar dados de bancos de dados relacionais.\n\nFocaremos em PostgreSQL, mas os conceitos aplicam-se a MySQL, SQL Server, Oracle, etc. Aprenda desde o SELECT básico até os temidos JOINs de forma simples e visual.",
   "sections": [
     {

@@ -7,17 +7,13 @@
   "rating": 4.5,
   "ratingCount": "890",
   "students": "4.300+",
-  "lastUpdated": "Setembro 2023",
+  "lastUpdated": "Abril 2025",
   "language": "Português",
   "level": "Iniciante",
   "totalLectures": 196,
   "totalDuration": "13h 48m",
   "udemyUrl": "https://www.udemy.com/course/introducao-ao-html-css-e-javascript/",
-  "technologies": [
-    "HTML",
-    "CSS",
-    "Javascript"
-  ],
+  "technologies": ["HTML", "CSS", "Javascript"],
   "includes": [
     {
       "icon": "fas fa-video",
@@ -43,9 +39,7 @@
     "Adicionar interatividade com JavaScript básico",
     "Publicar um site simples"
   ],
-  "requirements": [
-    "Nenhum requisito prévio, basta ter um computador"
-  ],
+  "requirements": ["Nenhum requisito prévio, basta ter um computador"],
   "description": "Quer entrar no mundo do desenvolvimento web? Este é o seu ponto de partida! Você aprenderá as 3 linguagens fundamentais da internet: HTML, CSS e JavaScript.\n\nCom uma abordagem totalmente prática, vamos construir layouts visuais interessantes e dar vida a eles usando Javascript.",
   "sections": [
     {

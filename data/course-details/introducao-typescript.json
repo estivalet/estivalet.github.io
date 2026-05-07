@@ -3,7 +3,7 @@
   "title": "Introdução ao TypeScript",
   "subtitle": "Domine TypeScript e Type Safety: aprenda POO, Programação Assíncrona e Modularização em projetos reais",
   "image": "assets/img/introducao-typescript.webp",
-  "videoUrl": "",
+  "videoUrl": "https://www.youtube.com/embed/9UKhCwVfZcI",
   "rating": 5.0,
   "ratingCount": "1",
   "students": "3",
@@ -13,10 +13,7 @@
   "totalLectures": 57,
   "totalDuration": "6h 43min",
   "udemyUrl": "https://www.udemy.com/course/introducao-ao-typescript/?couponCode=FS260504G1",
-  "technologies": [
-    "TypeScript",
-    "Javascript"
-  ],
+  "technologies": ["TypeScript", "Javascript"],
   "includes": [
     {
       "icon": "fas fa-video",

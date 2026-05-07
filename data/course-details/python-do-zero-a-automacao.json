@@ -5,27 +5,23 @@
   "image": "assets/img/python-zero-automacao.webp",
   "videoUrl": "https://www.youtube.com/embed/sKolLlic6o0",
   "rating": 4.6,
-  "ratingCount": "1.243",
-  "students": "8.500+",
+  "ratingCount": "247",
+  "students": "1000+",
   "lastUpdated": "Março 2024",
   "language": "Português",
   "level": "Iniciante ao Avançado",
-  "totalLectures": 131,
-  "totalDuration": "11h 22min",
+  "totalLectures": 141,
+  "totalDuration": "12h 30min",
   "udemyUrl": "https://www.udemy.com/course/python-do-zero-a-automacao/?couponCode=FS260504G1",
-  "technologies": [
-    "Python",
-    "Selenium",
-    "pyautogui"
-  ],
+  "technologies": ["Python", "Selenium", "pyautogui"],
   "includes": [
     {
       "icon": "fas fa-video",
-      "text": "11 horas e 22 minutos de vídeo sob demanda"
+      "text": "12 horas e 50 minutos de vídeo sob demanda"
     },
     {
       "icon": "fas fa-list",
-      "text": "131 aulas em 17 seções"
+      "text": "141 aulas em 17 seções"
     },
     {
       "icon": "fas fa-infinity",
@@ -753,6 +749,12 @@
     "courses": 10
   },
   "reviews": [
+    {
+      "name": "Henrique Santos de Jesus",
+      "rating": 5,
+      "date": "Maio 2025",
+      "text": "O curso além de barato, é completinho e sensacional, graças à este curso, consegui ter um norte bem mais claro em questão de, o que eu quero fazer nos projetos pessoais."
+    },
     {
       "name": "Carlos Mendes",
       "rating": 5,

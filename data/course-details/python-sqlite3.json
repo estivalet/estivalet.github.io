@@ -3,7 +3,7 @@
   "title": "Usando Banco de Dados SQLite3 em Python",
   "subtitle": "Conecte suas aplicações Python a um banco de dados leve e poderoso",
   "image": "assets/img/python-sqlite3.webp",
-  "videoUrl": "",
+  "videoUrl": "https://www.youtube.com/embed/SHanysllSTQ",
   "rating": 4.6,
   "ratingCount": "430",
   "students": "2.100+",
@@ -13,10 +13,7 @@
   "totalLectures": 58,
   "totalDuration": "5h 38min",
   "udemyUrl": "https://www.udemy.com/course/usando-banco-de-dados-sqlite3-em-python/",
-  "technologies": [
-    "Python",
-    "SQLite3"
-  ],
+  "technologies": ["Python", "SQLite3"],
   "includes": [
     {
       "icon": "fas fa-video",
@@ -43,9 +40,7 @@
     "Atualizar e deletar registros (CRUD)",
     "Gerenciar cursores e conexões"
   ],
-  "requirements": [
-    "Conhecimento básico da linguagem Python"
-  ],
+  "requirements": ["Conhecimento básico da linguagem Python"],
   "description": "O SQLite3 vem embutido na linguagem Python, tornando-se a escolha ideal para pequenos projetos, automações e aplicativos locais que precisam armazenar dados.\n\nNeste curso direto ao ponto, você vai aprender a realizar todas as operações fundamentais de um banco de dados (CRUD) usando a biblioteca nativa sqlite3 do Python.",
   "sections": [
     {

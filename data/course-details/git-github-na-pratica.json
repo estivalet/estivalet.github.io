@@ -3,24 +3,21 @@
   "title": "Git e GitHub na Prática",
   "subtitle": "Aprenda controle de versão de forma prática e direta para o dia a dia",
   "image": "assets/img/git-github-na-pratica.webp",
-  "videoUrl": "",
+  "videoUrl": "https://www.youtube.com/embed/DSVKgrNVZXY",
   "rating": 4.8,
   "ratingCount": "1.450",
   "students": "9.200+",
-  "lastUpdated": "Janeiro 2024",
+  "lastUpdated": "Maio 2025",
   "language": "Português",
   "level": "Iniciante",
-  "totalLectures": 45,
-  "totalDuration": "3h 15min",
+  "totalLectures": 15,
+  "totalDuration": "1h 15min",
   "udemyUrl": "https://www.udemy.com/course/git-github-na-pratica/",
-  "technologies": [
-    "Git",
-    "GitHub"
-  ],
+  "technologies": ["Git", "GitHub"],
   "includes": [
     {
       "icon": "fas fa-video",
-      "text": "3 horas de vídeo sob demanda"
+      "text": "1h e 15min horas de vídeo sob demanda"
     },
     {
       "icon": "fas fa-file-alt",
@@ -28,7 +25,7 @@
     },
     {
       "icon": "fas fa-list",
-      "text": "45 aulas em 6 seções"
+      "text": "15 aulas em 1 seção"
     },
     {
       "icon": "fas fa-infinity",

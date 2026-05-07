@@ -7,15 +7,13 @@
   "rating": 4.7,
   "ratingCount": "2.100",
   "students": "12.000+",
-  "lastUpdated": "Outubro 2023",
+  "lastUpdated": "Novembro 2024",
   "language": "Português",
   "level": "Iniciante",
   "totalLectures": 81,
   "totalDuration": "7h 41min",
   "udemyUrl": "https://www.udemy.com/course/curso-de-javascript-primeiros-passos/",
-  "technologies": [
-    "Javascript"
-  ],
+  "technologies": ["Javascript"],
   "includes": [
     {
       "icon": "fas fa-video",

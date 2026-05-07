@@ -3,7 +3,7 @@
   "title": "Crie Interfaces Gráficas com Python e Tkinter",
   "subtitle": "Uma Introdução Prática e Abrangente ao Desenvolvimento de Interfaces Gráficas Utilizando Python",
   "image": "assets/img/python-tkinter.webp",
-  "videoUrl": "",
+  "videoUrl": "https://www.youtube.com/embed/NygqPOpjL-Q",
   "rating": 4.8,
   "ratingCount": "15",
   "students": "52",
@@ -13,10 +13,7 @@
   "totalLectures": 73,
   "totalDuration": "5h 3min",
   "udemyUrl": "https://www.udemy.com/course/crie-interfaces-graficas-com-python-e-tkinter/?couponCode=FS260504G1",
-  "technologies": [
-    "Python",
-    "tkinter"
-  ],
+  "technologies": ["Python", "tkinter"],
   "includes": [
     {
       "icon": "fas fa-video",
@@ -425,17 +422,6 @@
         {
           "title": "Cadastro de Endereço - código fonte",
           "duration": "1:04"
-        }
-      ]
-    },
-    {
-      "title": "Conclusão",
-      "lectures": 1,
-      "duration": "1min",
-      "lessons": [
-        {
-          "title": "Conclusão",
-          "duration": "1:11"
         }
       ]
     }
